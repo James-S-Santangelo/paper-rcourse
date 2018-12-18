@@ -76,4 +76,7 @@ Figures can be included like this: ![Fidgit deposited in figshare.](figshare_art
 
 # Main Body
 
+## learning objectives and content
+The overarching objective of the course is to teach quantitative research methods that are reporducible and collaborative. Each lecture is independant and have specific learning objectives. First lecture starts with giving students an overview of the capabilities of R, more efficient quantitavie analysis of data compared to manual handling of spreadsheet, how to use the R Notebook for exploratory data analyses. 
+
 # References
