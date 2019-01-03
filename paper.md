@@ -53,7 +53,7 @@ affiliations:
 - name: Department of Physiology, University of Toronto
   index: 8
 date: 18 December 2018
-bibliography: bibliography.bib
+bibliography: paper.bib
 ---
 
 # Summary
@@ -158,7 +158,36 @@ experience common errors themselves and debug them in a supportive environment,
 to explore variations on material as they go, and to immediately check their
 understanding by trying things hands-on.
 
+## Teaching Experience
 
+For the first iteration of the course, our teaching team consisted of six
+graduate students from several different fields (Physiology, Biomedical
+Engineering, Physics, Psychology, and Nutritional Science); we divided course
+topics among each instructor to develop and deliver individual lessons and
+assignments to the eight participating students. After the core material had
+been developed, we could reduce the number of instructors to four graduate
+students for the second iteration (Physics, Ecology and Evolutionary Biology,
+Psychology, and Cell and Systems Biology) although the number of students
+increased to 26. We estimate that four instructors could effectively teach the
+current iteration of the course to around 40 students.
+
+To maximize the learning experience, we prioritized in-class participation,
+engagement, and hands-on experience. The main teaching techniques we used to
+achieve this were participatory live coding
+[@rubin_effectiveness_2013;@haaranen_programming_2017;@wilson_teaching_2018]
+where students were asked to complete partial solutions as we worked through
+the material together, and project-based learning
+[@sawyer_cambridge_2006;@strobel_when_2009;@markham_project_2011] where
+students collaborated in teams on data analysis problems, similar to a real
+world scenario.
+
+To ensure that proper teaching assistance was available at all times, at least
+two instructors were present for each lecture. One of these would act as
+a "helper" and students signal their need for assistance by attaching
+differently colored sticky notes to the back of their laptop monitor. This
+method avoid interrupting the lecture flow when students need assistance and it
+has been used successfully in workshops developed by The Carpentries
+[@wilson-software-carpentry].
 
 ## Story of the project
 
@@ -202,5 +231,6 @@ course ["Quantitative Methods in R for
 Biology."](https://uoftcoders.github.io/rcourse/) to reflect this change. On
 both occasions, the course received excellent feedback from the students and
 the supervising professors.
+
 
 # References
