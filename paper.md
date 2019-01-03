@@ -111,12 +111,12 @@ following components:
     teaching content of each lesson objective, taught in-class using 
     live-coding.[^1]
        - These submodules go over all concepts necessary to understand 
-       the concepts, complete the in-class exercises, and summative 
+       the course material, complete the in-class exercises, and summative 
        assignment towards the goal of completing the lesson objectives. 
        In lectures where the explicit goal was not to learn programming, 
        but a topic such as `Statistical Modeling`, we used the coding 
        submodules to explain the concept while concurrently 
-       demonstrating how to use programming to create, and apply 
+       demonstrating how to use programming to create and apply 
        statistical models to data.
     1. *Interleaved Exercises*: Coding exercises or discussion points 
     during the lecture to assess and confirm that students are 
@@ -132,18 +132,21 @@ following components:
        - Assignments were designed to challenge the students to apply 
        the techniques and concepts from the lesson to solve new problems, 
        demonstrating their understanding of the material.
+       - Each assignment covers two lectures worth of course material.
 
 We have found that this combination of clear lesson outlines, coding submodules,
-interleaved exercises and summative assignments allowed us to not only have a
-predictable structure to each lecture, but also assure that lesson objectives
-were not only covered, but conveyed effectively in order for students to
+interleaved exercises, and summative assignments allowed us to have a
+predictable structure to each lecture. It also assures that lesson objectives
+were both covered and conveyed effectively in order for students to
 complete both the exercises and assignments.
 
 Each of our lectures built on skills and concepts that would ultimately allow
-students to work on a final open-ended analysis of real open ecological data.
-With this goal in mind, we designed lectures to provide the building blocks to
-manipulate, visualize and analyze any datasets students may come across,
-including those used for the final projects.
+students to work on a final open-ended analysis of real open ecological data. 
+Of note, the datasets we chose for the course were large and messy (e.g. missing
+values), reflecting the type of data that is being increasingly generated across
+all disciplines. With this goal in mind, we designed lectures to provide the 
+building blocks to clean, manipulate, visualize and analyze any datasets 
+students may come across, including those used for the final projects.
 
 [^1]: *A note on "live-coding".* Live-coding is a hands-on method of teaching
 coding where the instructor shares their screen with the class and types all
