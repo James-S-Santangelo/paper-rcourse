@@ -192,7 +192,7 @@ competency of students on the lesson material.
 
 We found that this combination of clear lesson outlines, coding submodules,
 interleaved exercises, and summative assignments gave each lecture a
-predictable structure. It also assures that lesson objectives
+predictable structure. It also ensured that lesson objectives
 were both covered and conveyed effectively in order for students to
 complete both the exercises and assignments.
 
