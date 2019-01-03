@@ -74,7 +74,7 @@ Figures can be included like this: ![Fidgit deposited in figshare.](figshare_art
 
 # Description and eligibility
 
-We present a stand-alone module designed for simultaneously teaching statistical skills and programming skills in a participatory live-coding format to upper year undergraduate biology students. Our module has 16 primarily self-contained lectures with topics ranging from data cleaning, manipulation, and visualization, to the statistical analysis of biological data and reproducibility through GitHub. Our module additionally includes eight assignments that were distributed to students throughout the term to assess learning and understanding of course material. All materials were developed and taught using R Markdown, although no prior knowledge of the R programming language is assumed prior to taking the course. Course content is licensed under the CC-BY 4.0 licence while code is licensed under MIT. The open-source and stand-alone nature of our computational and statistical learning module makes this material ideally suited to adoption by other instructors and an excellent contribution to JOSE.
+We present a stand-alone module designed for simultaneously teaching statistical skills and programming skills in a participatory live-coding format to upper year undergraduate biology students. Our module has 16 primarily self-contained lectures with topics ranging from data cleaning, manipulation, and visualization, to the statistical analysis of biological data and reproducibility through GitHub. Our module additionally includes eight assignments that were distributed to students throughout the term to assess learning and understanding of course material. All materials were developed and taught using R Markdown [@rmarkdown], although no prior knowledge of the R programming language [@R] is assumed prior to taking the course. Course content is licensed under the CC-BY 4.0 licence while code is licensed under MIT. The open-source and stand-alone nature of our computational and statistical learning module makes this material ideally suited to adoption by other instructors and an excellent contribution to JOSE.
 
 
 # Statement of Need
@@ -103,11 +103,11 @@ Bullet point version (can be removed after discussion):
 ## Learning Objectives and Content
 The overarching objective of the course is to teach quantitative research
 methods that are reproducible and collaborative. The lectures are designed in
-three main groups: Programming in R and basic data wrangling and visualizations
+three main groups: Programming in R [@R] and basic data wrangling and visualizations
 (lectures 1-5), exploratory data analysis, statistics and modelling (Lectures
 6-12),  and reproducible science (Lectures 13-15).  The following is a brief
-description of learning objectives of the lectures based on independent modules:  
-- Introductory R:  
+description of learning objectives of the lectures based on independent modules:
+- Introductory R:
   - **Lecture 1** starts with giving students an overview of
 the capabilities of R such as more efficient quantitative analysis of data
 compared to manual handling of spreadsheets, programming in R, and integrating
@@ -121,26 +121,27 @@ using summary statistics and data visualization using `tidyverse` [@tidyverse]
 packages.
   - **Lecture 5** builds on tidy data topic to learn transforming datasets
 to appropriate formats for different scientific questions and for reproducing
-existing figures.  
+existing figures.
 - Exploratory data analysis and statistical models:
-  - **Lecture 6** focuses on approaches for cleaning up and preprocessing of raw data.  
+  - **Lecture 6** focuses on approaches for cleaning up and preprocessing of raw data.
   - **Lecture 7** introduces basic descriptive and inferential statistical techniques such
 as linear models.
   - **Lecture 8** focuses on linear mixed effects models to
-analyze the fixed and random effects in nested exploratory data.
+analyze the fixed and random effects in nested exploratory data using `lme4` [@lme4] and
+`lmerTest` [@lmerTest].
   - **Lecture 9** introduces randomization tests and teaches simulating datasets
   and applying such tests on simulated and read data.
   - **Lecture 10** objective is to learn multivariate statistics with a focus on
-  principle component analysis and multivariate analysis of variance.  
-- Numerical modeling:  
-  - **Lecture 11** introduces model selection approach, its benefits over traditional  
+  principle component analysis and multivariate analysis of variance.
+- Numerical modeling:
+  - **Lecture 11** introduces model selection approach, its benefits over traditional
 inferential statistics, and model selection criteria such as Akaike's  Information
 Criterion.
   - **Lecture 12** objective is to learn population models and using differential
-equations to analyze system dynamics.  
+equations to analyze system dynamics.
 - Reproducible science:
   - **Lecture 13** focuses on time series data and fitting numerical models to
-such datasets.  
+such datasets.
   - **Lecture 14** introduces the scientific method and integrating
 scientific approaches with group dynamics and in assigning roles and tasks. In
 this lecture students form groups for the final course project.
@@ -222,7 +223,7 @@ immediately check their understanding by trying things hands-on.
 See [Teaching Experience](#teaching-experience) for more details.
 This teaching format is heavily influenced by [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html)
 which uses live-coding as a key practice in their introductory programming
-workshops.
+workshops [e.g. @carpentry].
 
 ## Teaching Experience
 
@@ -293,8 +294,8 @@ class of twenty-six students with a teaching team of four graduate students
 (Physics, Ecology and Evolutionary Biology, Psychology, and Cell and Systems
 Biology). We modified our lecture material to include more generally applicable
 statistical concepts and fewer theoretical ecology concepts, and renamed the
-course ["Quantitative Methods in R for
-Biology."](https://uoftcoders.github.io/rcourse/) to reflect this change. On
+course "Quantitative Methods in R for
+Biology" [@rcourse] to reflect this change. On
 both occasions, the course received excellent feedback from the students and
 the supervising professors.
 
