@@ -101,7 +101,7 @@ workshops, we designed each of our lectures to have the following components:
 
     1. *Lesson Outline*: A clearly defined outline of the lesson objectives including expected length of time spent on each objective.
         - This makes clear to students not only what they can expect to learn from the lecture, but also provides a structured template for instructors to prioritize content and gauge how long they should be spending on each objective. This sets the expectations for both students and instructors.
-    2. *Live-Coding Content*: Coding snippets that form the teaching content of each lesson objective, taught in-class using live-coding.[^1]
+    2. *Participatory Live-Coding*: Coding snippets that form the teaching content of each lesson objective, taught in-class using live-coding.[^1]
        - These submodules go over all concepts necessary to understand the concepts, complete the in-class exercises, and summative assignment towards the goal of completing the lesson objectives. In lectures where the explicit goal was not to learn programming, but a topic such as `Statistical Modeling`, we used the coding submodules to explain the concept while concurrently demonstrating how to use programming to create, and apply statistical models to data.
     3. *Interleaved Exercises*: Coding exercises or discussion points during the lesson to assess and confirm that students are following along.
        - These exercises serve to both challenge the students and slowly build confidence in the lesson material.
