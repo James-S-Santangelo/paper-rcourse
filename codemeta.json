@@ -5,9 +5,9 @@
     {
       "@id": "0000-0003-4169-2616",
       "@type": "Person",
-      "email": "lwjohnst@ph.au.tk",
+      "email": "lwjohnst@ph.au.dk",
       "name": "Luke Johnston",
-      "affiliation": "Department of Nutritional Sciences, University of Toronto, Department of Public Health, Aarhus University"
+      "affiliation": "Department of Nutritional Sciences, University of Toronto; Department of Public Health, Aarhus University"
     }
     {
       "@id": "0000-0002-5813-4664",
@@ -72,7 +72,7 @@
   "dateModified": "2019-01-03",
   "dateCreated": "2019-01-03",
   "description": "This material contains modular participatory live-coding lectures covering statistics and data analysis for ecology and reproducible quantitative methods in R. Statistical analysis, modelling, simulation, and data analysis are essential skills for applying ecology concepts to data. This material is designed to meet a growing demand for reproducible, openly accessible, analytically thorough, and well documented science.",
-  "keywords": "R, programming, coding, ecology, statistics, differential equations, model, regression, population dynamics",
+  "keywords": "R, programming, coding, ecology, statistics, differential equations, modelling, regression, population dynamics",
   "license": "MIT, CC-BY-4.0",
   "title": "A graduate student-led participatory live-coding quantitative methods course in R: Experiences on initiating, developing, and teaching",
   "version": "v2.0.0"
