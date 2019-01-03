@@ -59,7 +59,7 @@ bibliography: paper.bib
 # Description and eligibility
 
 We present a stand-alone module designed for simultaneously teaching statistical
-skills and programming skills in a participatory live-coding format to upper year
+ and programming skills in a participatory live-coding format to upper year
 undergraduate biology students. Our module has 16 primarily self-contained
 lectures with topics ranging from data cleaning, manipulation, and visualization,
 to the statistical analysis of biological data and reproducibility through GitHub.
@@ -80,17 +80,17 @@ Describing why this material is beneficial to the community, why someone else wo
 -->
 
 In traditional undergraduate biology education, students learn coding skills and
-biology concepts separately. This course, designed for third and fourth-year
+concepts in biology separately. This course, designed for third and fourth-year
 undergraduate students, fosters R coding skills in the context of learning
 statistics and ecology. Notably, the materials cover statistical concepts that
 are broadly useful in biology: linear regression, mixed effects models,
 randomization tests, principal component analyses, ANOVA and MANOVA, model
 selection, and numerically solving differential equations. We delivered these
-materials as a four month course, but these concepts are presented in stand-alone
+materials as a four-month course, but these concepts are presented in stand-alone
 lectures designed by an interdisciplinary teaching team that could easily be
 mixed and matched to suit any desired course outcomes. The course is completely
 interactive: all lectures are designed to be delivered in a participatory
-live-coding format so that students learn experientally in real-time. The course
+live-coding format so that students learn experientially in real-time. The course
 materials also include assignments matched to lecture materials that sharpen
 students' understanding and allow them to critically apply their skills to new
 problems. Reproducible research skills are emphasized throughout, and the course
@@ -117,9 +117,9 @@ Bullet point version (can be removed after discussion):
 ## Learning Objectives and Content
 The overarching objective of the course is to teach quantitative research
 methods that are reproducible and collaborative. The lectures are designed in
-three main groups: Programming in R and basic data wrangling and visualizations
+three main groups: Programming in R, basic data wrangling and visualizations
 (lectures 1-5), exploratory data analysis, statistics and modelling (Lectures
-6-12),  and reproducible science (Lectures 13-15).  The following is a brief
+6-12), and reproducible science (Lectures 13-15). The following is a brief
 description of learning objectives of the lectures based on independent modules:  
 - Introductory R:  
   - **Lecture 1** starts with giving students an overview of
@@ -133,8 +133,8 @@ with a focus on using `dplyr` [@dplyr] package.
   - **Lecture 4** objective is to learn the advantage  of
 using summary statistics and data visualization using `tidyverse` [@tidyverse]
 packages.
-  - **Lecture 5** builds on tidy data topic to learn transforming datasets
-to appropriate formats for different scientific questions and for reproducing
+  - **Lecture 5** builds on the topic of tidy data for transforming datasets
+into appropriate formats for different scientific questions and for reproducing
 existing figures.  
 - Exploratory data analysis and statistical models:
   - **Lecture 6** focuses on approaches for cleaning up and preprocessing of raw data.  
@@ -142,13 +142,13 @@ existing figures.
 as linear models.
   - **Lecture 8** focuses on linear mixed effects models to
 analyze the fixed and random effects in nested exploratory data.
-  - **Lecture 9** introduces randomization tests and teaches simulating datasets
+  - **Lecture 9** introduces randomization tests, and teaches simulating datasets
   and applying such tests on simulated and read data.
   - **Lecture 10** objective is to learn multivariate statistics with a focus on
-  principle component analysis and multivariate analysis of variance.  
+  principal component analysis and multivariate analysis of variance.  
 - Numerical modeling:  
   - **Lecture 11** introduces model selection approach, its benefits over traditional  
-inferential statistics, and model selection criteria such as Akaike's  Information
+inferential statistics, and model selection criteria such as Akaike's Information
 Criterion.
   - **Lecture 12** objective is to learn population models and using differential
 equations to analyze system dynamics.  
@@ -156,10 +156,10 @@ equations to analyze system dynamics.
   - **Lecture 13** focuses on time series data and fitting numerical models to
 such datasets.  
   - **Lecture 14** introduces the scientific method and integrating
-scientific approaches with group dynamics and in assigning roles and tasks. In
-this lecture students form groups for the final course project.
+scientific approaches with group dynamics and assigning roles and tasks. In
+this lecture, students form groups for the final course project.
   - **Lecture 15** focuses on reproducible and
-collaborative research tools such as Git version control and the Github platform.
+collaborative research tools such as Git version control and the GitHub platform.
 Each group works within a GitHub repository and the team members learn the
 basics of documenting the progress of the project and collaborating using these
 tools.
@@ -186,8 +186,8 @@ live-coding.[^1]
    - These submodules cover all concepts necessary to understand
    the lesson content and complete the take-home assigments and
    in-class exercises. In lectures where the explicit goal was
-   not to learn programming, but a topic such as `Statistical
-   Modeling`, we used the coding submodules to explain the concept
+   not coding, but rather a topic such as `Statistical
+   Modeling`, we used the coding snippets to explain the concept
    while concurrently demonstrating how to use programming to
    create and apply statistical models to data.
 3. *Interleaved Exercises*: Coding exercises or discussion points
@@ -206,7 +206,7 @@ competency of students on the lesson material.
    demonstrating their understanding of the material.
    - Each assignment covers two lectures worth of course material.
 
-We have found that this combination of clear lesson outlines, coding submodules,
+We have found that this combination of clear lesson outlines, live-coding,
 interleaved exercises, and summative assignments gave each lecture a
 predictable structure. It also assures that lesson objectives
 were both covered and conveyed effectively in order for students to
@@ -241,11 +241,11 @@ workshops.
 ## Teaching Experience
 
 For the first iteration of the course, our teaching team consisted of six
-graduate students from several different fields (Physiology, Biomedical
+graduate students from several fields (Physiology, Biomedical
 Engineering, Physics, Psychology, and Nutritional Science); we divided course
 topics among each instructor to develop and deliver individual lessons and
 assignments to the eight participating students. After the core material had
-been developed, we could reduce the number of instructors to four graduate
+been developed, we reduced the number of instructors to four graduate
 students for the second iteration (Physics, Ecology and Evolutionary Biology,
 Psychology, and Cell and Systems Biology) although the number of students
 increased to 26. We estimate that four instructors could effectively teach the
@@ -262,7 +262,7 @@ students collaborated in teams on data analysis problems, similar to a real
 world scenario.
 
 To ensure that proper teaching assistance was available at all times, at least
-two instructors were present for each lecture. One of these would act as
+two instructors were present for each lecture. One of these would act as 
 a "helper" and students signal their need for assistance by attaching
 differently colored sticky notes to the back of their laptop monitor. This
 method avoided interrupting the lecture flow when students needed assistance and it
@@ -275,7 +275,7 @@ While there are many excellent open source libraries for quantitative data
 analysis, the use of less capable analysis tools (such as spreadsheet software)
 is still prevalent among graduate students although these drastically reduce
 analysis reproducibility, power and efficiency. Part of this issue stems from
-lack of awareness, and part from that students are often required to learn
+lack of awareness, and part from the common requirement of students to learn
 about new tools in isolation and on top of their main research activities. As
 such, those that do embark on this daunting journey often quit before they can
 reap the rewards of their efforts. Like-minded peers could provide the needed
@@ -296,7 +296,7 @@ of the course content after ["Reproducible Quantitative
 Methods"](https://cbahlai.github.io/rqm-template/) a course created by Dr.
 Christie Bahlai, modifying the lesson content to include additional theoretical
 ecology topics but maintaining the focus on reproducibility and computational
-skills. Our teaching team consisted of six graduate students from several
+skills. Our teaching team consisted of six graduate students from 
 different fields (Physiology, Biomedical Engineering, Physics, Psychology, and
 Nutritional Science); we divided course topics among each instructor to develop
 and deliver individual lessons and assignments.
