@@ -99,45 +99,33 @@ their skills to real ecological data. The course repository is linked to an
 auto-generated website that presents the syllabus and materials and is easily
 modified by editing the course files on GitHub.
 
-Bullet point version (can be removed after discussion):
-
-* Students often learn coding skills and biology concepts separately, while this course fosters R coding skills in the context of learning statistics and ecology.
-* Course contains stand-alone lectures that outline broadly useful statistical methods.
-* Modular: lectures can be mixed and matched
-* This course is completely interactive: all lectures are designed to be delivered in a participatory live-coding format so that students learn experientally in real-time.
-* This course contains assignments that sharpen students' understanding and allow them to critically apply skills to new problems.
-* Students learn creativity and critical thinking through an open-ended, self-directed project that uses real ecological data.
-* Students learn skills for reproducible research throughout the course.
-* Course website - nice looking and easy to use
-* We have taught this course twice and have refined the materials based on previous teaching experience
-
 # Main Body
 
-
 ## Learning Objectives and Content
-The overarching objective of the course is to teach quantitative research
-methods that are reproducible and collaborative. The lectures are designed in
-three main groups: Programming in R and basic data wrangling and visualizations
+
+The overarching objective of the course is to teach reproducible and collaborative
+quanititative research skills. The lectures are designed in
+three main groups: programming in R and basic data wrangling and visualizations
 (lectures 1-5), exploratory data analysis, statistics and modelling (Lectures
 6-12),  and reproducible science (Lectures 13-15).  The following is a brief
-description of learning objectives of the lectures based on independent modules:  
-- Introductory R:  
-  - **Lecture 1** starts with giving students an overview of
+description of learning objectives of the lectures:
+- Introductory R:
+  - **Lecture 1** provides an overview of
 the capabilities of R such as more efficient quantitative analysis of data
 compared to manual handling of spreadsheets, programming in R, and integrating
-analyses with generating reports using R Notebook (markdown syntax).
+analyses with generating reports using R Markdown.
   - **Lecture 2** introduces fundamental elements in programming with R such as vectors,
 data frames, basic operations and use of functions.
   - **Lecture 3** introduces the concept of exploratory analysis of datasets
-with a focus on using `dplyr` [@dplyr] package.
+with a focus on using the `dplyr` [@dplyr] package.
   - **Lecture 4** objective is to learn the advantage  of
 using summary statistics and data visualization using `tidyverse` [@tidyverse]
 packages.
-  - **Lecture 5** builds on tidy data topic to learn transforming datasets
+  - **Lecture 5** builds on tidy data topic to learn about transforming datasets
 to appropriate formats for different scientific questions and for reproducing
-existing figures.  
+existing figures.
 - Exploratory data analysis and statistical models:
-  - **Lecture 6** focuses on approaches for cleaning up and preprocessing of raw data.  
+  - **Lecture 6** focuses on approaches for cleaning up and preprocessing of raw data.
   - **Lecture 7** introduces basic descriptive and inferential statistical techniques such
 as linear models.
   - **Lecture 8** focuses on linear mixed effects models to
@@ -145,24 +133,21 @@ analyze the fixed and random effects in nested exploratory data.
   - **Lecture 9** introduces randomization tests and teaches simulating datasets
   and applying such tests on simulated and read data.
   - **Lecture 10** objective is to learn multivariate statistics with a focus on
-  principle component analysis and multivariate analysis of variance.  
-- Numerical modeling:  
-  - **Lecture 11** introduces model selection approach, its benefits over traditional  
+  principle component analysis and multivariate analysis of variance.
+  - **Lecture 11** introduces model selection approach, its benefits over traditional
 inferential statistics, and model selection criteria such as Akaike's  Information
 Criterion.
+- Numerical modeling:
   - **Lecture 12** objective is to learn population models and using differential
-equations to analyze system dynamics.  
+equations to analyze system dynamics.
 - Reproducible science:
   - **Lecture 13** focuses on time series data and fitting numerical models to
-such datasets.  
+such datasets.
   - **Lecture 14** introduces the scientific method and integrating
 scientific approaches with group dynamics and in assigning roles and tasks. In
 this lecture students form groups for the final course project.
   - **Lecture 15** focuses on reproducible and
 collaborative research tools such as Git version control and the Github platform.
-Each group works within a GitHub repository and the team members learn the
-basics of documenting the progress of the project and collaborating using these
-tools.
   - **Lecture 16** finishes the course with the topic of reproducibility. We
 learn the barriers, and the beneficial approaches such as the use of metadata
 and generating comprehensive manuscript in R-markdown.
@@ -217,7 +202,7 @@ students to work on a final open-ended analysis of real open ecological data.
 Of note, the datasets we chose for the course were large and messy (e.g. missing
 values), reflecting the type of data that is being increasingly generated across
 various disciplines. With this goal in mind, we designed lectures to provide the
-building blocks to clean, manipulate, visualize and analyze any datasets
+building blocks to clean, manipulate, visualize, and analyze any datasets
 students may come across, including those used for the final projects.
 
 [^1]: *A note on "live-coding".* Live-coding is a hands-on method of teaching
@@ -296,9 +281,7 @@ of the course content after ["Reproducible Quantitative
 Methods"](https://cbahlai.github.io/rqm-template/) a course created by Dr.
 Christie Bahlai, modifying the lesson content to include additional theoretical
 ecology topics but maintaining the focus on reproducibility and computational
-skills. Our teaching team consisted of six graduate students from several
-different fields (Physiology, Biomedical Engineering, Physics, Psychology, and
-Nutritional Science); we divided course topics among each instructor to develop
+skills. We divided course topics among each instructor to develop
 and deliver individual lessons and assignments.
 
 Following a successful pilot term with a class of eight students, the course
