@@ -108,49 +108,48 @@ three main groups: Programming in R and basic data wrangling and visualizations
 6-12),  and reproducible science (Lectures 13-15).  The following is a brief
 description of learning objectives of the lectures based on independent modules:  
 - Introductory R:  
-  - The first lecture starts with giving students an overview of
+  - **Lecture 1** starts with giving students an overview of
 the capabilities of R such as more efficient quantitative analysis of data
 compared to manual handling of spreadsheets, programming in R, and integrating
 analyses with generating reports using R Notebook (markdown syntax).
-  - Second lecture introduces fundamental elements in programming with R such as vectors,
+  - **Lecture 2** introduces fundamental elements in programming with R such as vectors,
 data frames, basic operations and use of functions.
-  - The third lecture introduces the concept of exploratory analysis of datasets
+  - **Lecture 3** introduces the concept of exploratory analysis of datasets
 with a focus on using `dplyr` [@dplyr] package.
-  - The objective for lecture four is to learn the advantage  of
+  - **Lecture 4** objective is to learn the advantage  of
 using summary statistics and data visualization using `tidyverse` [@tidyverse]
 packages.
-  - Lecture five builds on tidy data topic to learn transforming datasets
+  - **Lecture 5** builds on tidy data topic to learn transforming datasets
 to appropriate formats for different scientific questions and for reproducing
 existing figures.  
 - Exploratory data analysis and statistical models:
-  - Lecture six focuses on approaches for cleaning up and preprocessing of raw data.  
-  - Lecture seven introduces basic descriptive and inferential statistical techniques such
+  - **Lecture 6** focuses on approaches for cleaning up and preprocessing of raw data.  
+  - **Lecture 7** introduces basic descriptive and inferential statistical techniques such
 as linear models.
-  - Lecture eight focuses on linear mixed effects models to
+  - **Lecture 8** focuses on linear mixed effects models to
 analyze the fixed and random effects in nested exploratory data.
-  - Lecture nine
-introduces randomization tests and teaches simulating datasets and applying such
-tests on simulated and read data.
-  - Lecture ten's objective is to learn multivariate statistics with a focus on
+  - **Lecture 9** introduces randomization tests and teaches simulating datasets
+  and applying such tests on simulated and read data.
+  - **Lecture 10** objective is to learn multivariate statistics with a focus on
   principle component analysis and multivariate analysis of variance.  
 - Numerical modeling:  
-  - Lecture eleven introduces model selection approach, its benefits over traditional  
+  - **Lecture 11** introduces model selection approach, its benefits over traditional  
 inferential statistics, and model selection criteria such as Akaike's  Information
 Criterion.
-  - Lecture twelve is to learn population models and using differential
+  - **Lecture 12** objective is to learn population models and using differential
 equations to analyze system dynamics.  
 - Reproducible science:
-  - Lecture thirteen focuses on time series data and fitting numerical models to
+  - **Lecture 13** focuses on time series data and fitting numerical models to
 such datasets.  
-  - Lecture fourteen introduces the scientific method and integrating
+  - **Lecture 14** introduces the scientific method and integrating
 scientific approaches with group dynamics and in assigning roles and tasks. In
 this lecture students form groups for the final course project.
-  - Lecture fifteen focuses on reproducible and
+  - **Lecture 15** focuses on reproducible and
 collaborative research tools such as Git version control and the Github platform.
 Each group works within a GitHub repository and the team members learn the
 basics of documenting the progress of the project and collaborating using these
 tools.
-  - Lecture sixteen finishes the course with the topic of reproducibility. We
+  - **Lecture 16** finishes the course with the topic of reproducibility. We
 learn the barriers, and the beneficial approaches such as the use of metadata
 and generating comprehensive manuscript in R-markdown.
 
