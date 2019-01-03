@@ -53,7 +53,7 @@ affiliations:
 - name: Department of Physiology, University of Toronto
   index: 8
 date: 18 December 2018
-bibliography: bibliography.bib
+bibliography: paper.bib
 ---
 
 # Summary
@@ -74,18 +74,36 @@ Figures can be included like this: ![Fidgit deposited in figshare.](figshare_art
 
 # Statement of Need
 
+<!--
+Describing why this material is beneficial to the community, why someone else would use it
+-->
+
+In traditional undergraduate biology education, students learn coding skills and biology concepts separately. This course, designed for third and fourth-year undergraduate students, fosters R coding skills in the context of learning statistics and ecology. Notably, the materials cover statistical concepts that are broadly useful in biology: linear regression, mixed effects models, randomization tests, principal component analyses, ANOVA and MANOVA, model selection, and numerically solving differential equations. We delivered these materials as a four month course, but these concepts are presented in stand-alone lectures designed by an interdisciplinary teaching team that could easily be mixed and matched to suit any desired course outcomes. The course is completely interactive: all lectures are designed to be delivered in a participatory live-coding format so that students learn experientally in real-time. The course materials also include assignments matched to lecture materials that sharpen students' understanding and allow them to critically apply their skills to new problems. Reproducible research skills are emphasized throughout, and the course culminates in an open-ended, self-directed project that allows students to apply their skills to real ecological data. The course repository is linked to an auto-generated website that presents the syllabus and materials and is easily modified by editing the course files on GitHub.
+
+Bullet point version (can be removed after discussion):
+
+* Students often learn coding skills and biology concepts separately, while this course fosters R coding skills in the context of learning statistics and ecology.
+* Course contains stand-alone lectures that outline broadly useful statistical methods.
+* Modular: lectures can be mixed and matched
+* This course is completely interactive: all lectures are designed to be delivered in a participatory live-coding format so that students learn experientally in real-time.
+* This course contains assignments that sharpen students' understanding and allow them to critically apply skills to new problems.  
+* Students learn creativity and critical thinking through an open-ended, self-directed project that uses real ecological data.
+* Students learn skills for reproducible research throughout the course.
+* Course website - nice looking and easy to use
+* We have taught this course twice and have refined the materials based on previous teaching experience
+
 # Main Body
 
 ## learning objectives and content
 The overarching objective of the course is to teach quantitative research
 methods that are reproducible and collaborative. Each lecture is independent and
-have specific learning objectives. First lecture starts with giving students an
+have specific learning objectives. The first lecture starts with giving students an
 overview of the capabilities of R such as more efficient quantitative analysis
 of data compared to manual handling of spreadsheets, programming in R, and
 integrating analyses with generating reports using R Notebook (markdown syntax).
 Second lecture introduces fundamental elements in programming with R such as
 vectors, data frames, basic operations and use of functions. The third lecture
-intorduces the concept of exploratory analysis of datasets with a focus on using
+introduces the concept of exploratory analysis of datasets with a focus on using
 dplyr package. The objective for lecture four is to learn the advantage of using
 summary statistics and data visualization using tidyverse packages. Lecture five
 focuses on approaches for cleaning up and preprocessing of raw data. Lecture
@@ -105,9 +123,9 @@ acquire a scientific approach, the steps involved and integrating such approach
 with group dynamics and in assigning roles and tasks. In this lecture students
 form groups for the final course project. Lecture fifteen focuses on
 reproducible and collaborative research tools such as Git version control and
-Github platform. Each project group make their Github repository and the team
+Github platform. Each group works within a GitHub repository and the team
 members learn the basics of documenting the progress of the project and
-collaborate using these tools. Lecture sixteen, finishes the course with the
+collaborating using these tools. Lecture sixteen finishes the course with the
 topic of reproducibility. We learn the barriers, and the beneficial approaches
 such as the use of metadata and generating comprehensive manuscript in
 R-markdown.
