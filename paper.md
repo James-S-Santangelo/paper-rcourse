@@ -126,15 +126,15 @@ multivariate analysis of variance.
 - Numerical modeling:  
 Lecture eleven introduces model selection approach, its benefits over traditional  
 inferential statistics, and model selection criteria such as Akaike's  Information
-Criterion. Lecture twelve is to learn population models and using of
-differential equations such to analyze system dynamics.  
+Criterion. Lecture twelve is to learn population models and using differential
+equations to analyze system dynamics.  
 - Reproducible science:
 Lecture thirteen focuses on time series data and fitting numerical models to
-such datasets.  Lecture fourteen introduces the necessity to acquire a
-scientific approach, the steps involved and integrating such approach with group
-dynamics and in assigning roles and tasks. In this lecture students form groups
-for the final course project. Lecture fifteen focuses on reproducible and
-collaborative research tools such as Git version control and Github platform.
+such datasets.  Lecture fourteen introduces the scientific method and integrating
+scientific approaches with group dynamics and in assigning roles and tasks. In
+this lecture students form groups for the final course project.
+Lecture fifteen focuses on reproducible and
+collaborative research tools such as Git version control and the Github platform.
 Each group works within a GitHub repository and the team members learn the
 basics of documenting the progress of the project and collaborating using these
 tools. Lecture sixteen finishes the course with the topic of reproducibility. We
