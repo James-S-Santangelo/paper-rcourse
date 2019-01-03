@@ -96,52 +96,63 @@ Bullet point version (can be removed after discussion):
 
 ## Instructional Design
 
-Drawing from the authors' previous experiences teaching introductory programming
-workshops, we designed each of our lectures to have the following components:
+Drawing from the authors' previous experiences teaching introductory 
+programming workshops, we designed each of our lectures to have the 
+following components:
 
-    1. *Lesson Outline*: A clearly defined outline of the lesson objectives including expected 
-    length of time spent on each objective.
-        - This makes clear to students not only what they can expect to learn from the lecture,
-        but also provides a structured template for instructors to prioritize content and gauge
-        how long they should be spending on each objective. This sets the expectations for both
-        students and instructors.
-    3. *Participatory Live-Coding*: Coding snippets that form the teaching content of each lesson 
-    objective, taught in-class using live-coding.[^1]
-       - These submodules go over all concepts necessary to understand the concepts, complete the
-       in-class exercises, and summative assignment towards the goal of completing the lesson
-       objectives. In lectures where the explicit goal was not to learn programming, but a topic
-       such as `Statistical Modeling`, we used the coding submodules to explain the concept while
-       concurrently demonstrating how to use programming to create, and apply statistical models to
-       data.
-    5. *Interleaved Exercises*: Coding exercises or discussion points during the lecture to assess
-    and confirm that students are following along.
-       - These exercises serve to both challenge the students and slowly build confidence in the
-       lesson material.
-       - Notably, if many students struggle to successfully complete the exercise, this is a way
-       for instructors to identify which concepts to go over more thoroughly or clear up any
-       misunderstandings made along the way.
-    7. *Summative Assignment*: A comprehensive assignment to test the competency of students
-    on the lesson material.
-       - Assignments were designed to challenge the students to apply the techniques and concepts
-       from the lesson to solve new problems, demonstrating their understanding of the material.
+    1. *Lesson Outline*: A clearly defined outline of the lesson 
+    objectives including expected length of time spent on each objective.
+        - This makes clear to students not only what they can expect to 
+        learn from the lecture, but also provides a structured template 
+        for instructors to prioritize content and gauge how long they 
+        should be spending on each objective. This sets the expectations 
+        for both students and instructors.
+    1. *Participatory Live-Coding*: Coding snippets that form the 
+    teaching content of each lesson objective, taught in-class using 
+    live-coding.[^1]
+       - These submodules go over all concepts necessary to understand 
+       the concepts, complete the in-class exercises, and summative 
+       assignment towards the goal of completing the lesson objectives. 
+       In lectures where the explicit goal was not to learn programming, 
+       but a topic such as `Statistical Modeling`, we used the coding 
+       submodules to explain the concept while concurrently 
+       demonstrating how to use programming to create, and apply 
+       statistical models to data.
+    1. *Interleaved Exercises*: Coding exercises or discussion points 
+    during the lecture to assess and confirm that students are 
+    following along.
+       - These exercises serve to both challenge the students and slowly 
+       build confidence in the lesson material.
+       - Notably, if many students struggle to successfully complete the 
+       exercise, this is a way for instructors to identify which 
+       concepts to go over more thoroughly or clear up any misunderstandings 
+       made along the way.
+    1. *Summative Assignment*: A comprehensive assignment to test the 
+    competency of students on the lesson material.
+       - Assignments were designed to challenge the students to apply 
+       the techniques and concepts from the lesson to solve new problems, 
+       demonstrating their understanding of the material.
 
-We have found that this combination of clear lesson outlines, coding submodules, interleaved
-exercises and summative assignments allowed us to not only have a predictable structure to each
-lecture, but also assure that lesson objectives were not only covered, but conveyed effectively
-in order for students to complete both the exercises and assignments.
+We have found that this combination of clear lesson outlines, coding submodules,
+interleaved exercises and summative assignments allowed us to not only have a
+predictable structure to each lecture, but also assure that lesson objectives
+were not only covered, but conveyed effectively in order for students to
+complete both the exercises and assignments.
 
-Each of our lectures built on skills and concepts that would ultimately allow students to work
-on a final open-ended analysis of real open ecological data. With this goal in mind, we designed
-lectures to provide the building blocks to manipulate, visualize and analyze any datasets
-students may come across, including those used for the final projects.
+Each of our lectures built on skills and concepts that would ultimately allow
+students to work on a final open-ended analysis of real open ecological data.
+With this goal in mind, we designed lectures to provide the building blocks to
+manipulate, visualize and analyze any datasets students may come across,
+including those used for the final projects.
 
-[^1]: *A note on "live-coding".* Live-coding is a hands-on method of teaching coding where the
-instructor shares their screen with the class and types all commands on their computer while
-the group follows along. Live-coding has proven to be a very effective teaching technique as
-it forces the instructor to go slowly and ensures that participants get to try out every
-command being used. Furthermore, mistakes and errors are bound to happen.
-It allows learners to experience common errors themselves and debug them in a supportive
-environment, to explore variations on material as they go, and to immediately check their
+[^1]: *A note on "live-coding".* Live-coding is a hands-on method of teaching
+coding where the instructor shares their screen with the class and types all
+commands on their computer while the group follows along. Live-coding has proven
+to be a very effective teaching technique as it forces the instructor to go
+slowly and ensures that participants get to try out every command being used.
+Furthermore, mistakes and errors are bound to happen. It allows learners to
+experience common errors themselves and debug them in a supportive environment,
+to explore variations on material as they go, and to immediately check their
 understanding by trying things hands-on.
 
 
