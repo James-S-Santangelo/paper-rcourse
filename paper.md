@@ -15,7 +15,7 @@ authors:
   orcid: 0000-0002-5813-4664
   affiliation: 1
 - name: Lindsay Coome
-  orcid: 
+  orcid:
   affiliation: 5
 - name: Joel Ostblom
   orcid: 0000-0003-0051-3239
@@ -72,6 +72,11 @@ This is an example citation [@figshare_archive].
 
 Figures can be included like this: ![Fidgit deposited in figshare.](figshare_article.png)
 
+# Description and eligibility
+
+We present a stand-alone module designed for simultaneously teaching statistical and programming skills in a participatory live-coding format to upper year undergraduate biology students. Our module has 16 self-contained lectures, with topics ranging from data cleaning, manipulation, and visualization, to the statistical analysis of biological data and reproducibility through GitHub. Our module additionally includes eight assignments that were distributed to students throughout the term to assess learning and understanding of course material. All materials were developed and taught using R markdown, although no prior knowledge of the R programming language is assumed prior to taking the course. Course content is licensed under the CC-BY 4.0 licence while code is licensed under MIT. The open-source and stand-alone nature of our computational and statistical learning module makes this material ideally suited to adoption by other instructors and an excellent contribution to JOSE.
+
+
 # Statement of Need
 
 <!--
@@ -86,7 +91,7 @@ Bullet point version (can be removed after discussion):
 * Course contains stand-alone lectures that outline broadly useful statistical methods.
 * Modular: lectures can be mixed and matched
 * This course is completely interactive: all lectures are designed to be delivered in a participatory live-coding format so that students learn experientally in real-time.
-* This course contains assignments that sharpen students' understanding and allow them to critically apply skills to new problems.  
+* This course contains assignments that sharpen students' understanding and allow them to critically apply skills to new problems.
 * Students learn creativity and critical thinking through an open-ended, self-directed project that uses real ecological data.
 * Students learn skills for reproducible research throughout the course.
 * Course website - nice looking and easy to use
