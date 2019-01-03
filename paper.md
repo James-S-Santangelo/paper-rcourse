@@ -159,11 +159,11 @@ stuck/have a question, whereby another instructor in the class can follow
 up with the student as the class continues. It allows learners to 
 experience common errors themselves and debug them in a supportive 
 environment, to explore variations on material as they go, and to 
-immediately check their understanding by trying things hands-on. This 
-teaching format is heavily influenced by [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html) 
+immediately check their understanding by trying things hands-on. 
+See [Teaching Experience](#teaching-experience) for more details. 
+This teaching format is heavily influenced by [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html) 
 which uses live-coding as a key practice in their introductory programming
-workshops.
-
+workshops. 
 
 ## Teaching Experience
 
