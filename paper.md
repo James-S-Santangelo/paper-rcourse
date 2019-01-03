@@ -15,7 +15,7 @@ authors:
   orcid: 0000-0002-5813-4664
   affiliation: 1
 - name: Lindsay Coome
-  orcid: 
+  orcid:
   affiliation: 5
 - name: Joel Ostblom
   orcid: 0000-0003-0051-3239
@@ -86,7 +86,7 @@ Bullet point version (can be removed after discussion):
 * Course contains stand-alone lectures that outline broadly useful statistical methods.
 * Modular: lectures can be mixed and matched
 * This course is completely interactive: all lectures are designed to be delivered in a participatory live-coding format so that students learn experientally in real-time.
-* This course contains assignments that sharpen students' understanding and allow them to critically apply skills to new problems.  
+* This course contains assignments that sharpen students' understanding and allow them to critically apply skills to new problems.
 * Students learn creativity and critical thinking through an open-ended, self-directed project that uses real ecological data.
 * Students learn skills for reproducible research throughout the course.
 * Course website - nice looking and easy to use
@@ -94,6 +94,76 @@ Bullet point version (can be removed after discussion):
 
 # Main Body
 
+## Instructional Design
+
+Drawing from the authors' previous experiences teaching introductory 
+programming workshops, we designed each of our lectures to have the 
+following components:
+
+1. *Lesson Outline*: A clearly defined outline of the lesson 
+objectives including expected length of time spent on each objective.
+    - This makes clear to students not only what they can expect to 
+    learn from the lecture, but also provides a structured template 
+    for instructors to prioritize content and gauge how long they 
+    should be spending on each objective. This sets the expectations 
+    for both students and instructors.
+2. *Participatory Live-Coding*: Coding snippets that form the 
+teaching content of each lesson objective, taught in-class using 
+live-coding.[^1]
+   - These submodules cover all concepts necessary to understand 
+   the lesson content and complete the take-home assigments and 
+   in-class exercises. In lectures where the explicit goal was 
+   not to learn programming, but a topic such as `Statistical 
+   Modeling`, we used the coding submodules to explain the concept 
+   while concurrently demonstrating how to use programming to 
+   create and apply statistical models to data.
+3. *Interleaved Exercises*: Coding exercises or discussion points 
+during the lecture to assess and confirm that students are 
+following along.
+   - These exercises serve to both challenge the students and slowly 
+   build confidence in the lesson material.
+   - Notably, if many students struggle to successfully complete the 
+   exercise, this is a way for instructors to identify which 
+   concepts to go over more thoroughly or clear up any misunderstandings 
+   made along the way.
+4. *Summative Assignment*: A comprehensive assignment to test the 
+competency of students on the lesson material.
+   - Assignments were designed to challenge the students to apply 
+   the techniques and concepts from the lesson to solve new problems, 
+   demonstrating their understanding of the material.
+   - Each assignment covers two lectures worth of course material.
+
+We have found that this combination of clear lesson outlines, coding submodules,
+interleaved exercises, and summative assignments gave each lecture a 
+predictable structure. It also assures that lesson objectives 
+were both covered and conveyed effectively in order for students to 
+complete both the exercises and assignments.
+
+Each of our lectures built on skills and concepts that would ultimately allow
+students to work on a final open-ended analysis of real open ecological data. 
+Of note, the datasets we chose for the course were large and messy (e.g. missing
+values), reflecting the type of data that is being increasingly generated across 
+various disciplines. With this goal in mind, we designed lectures to provide the 
+building blocks to clean, manipulate, visualize and analyze any datasets 
+students may come across, including those used for the final projects.
+
+[^1]: *A note on "live-coding".* Live-coding is a hands-on method of teaching
+coding where the instructor shares their screen with the class and types all
+commands on their computer while the group follows along. Live-coding has proven
+to be a very effective teaching technique as it forces the instructor to go
+slowly and ensures that participants get to try out every command being used.
+Furthermore, mistakes and errors are bound to happen. We used two colors of 
+sticky notes, distributed to students each class, one color to signal 
+whether they are ready to move on, the other to signal that they are 
+stuck/have a question, whereby another instructor in the class can follow
+up with the student as the class continues. It allows learners to 
+experience common errors themselves and debug them in a supportive 
+environment, to explore variations on material as they go, and to 
+immediately check their understanding by trying things hands-on. 
+See [Teaching Experience](#teaching-experience) for more details. 
+This teaching format is heavily influenced by [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html) 
+which uses live-coding as a key practice in their introductory programming
+workshops. 
 
 ## Teaching Experience
 
@@ -122,7 +192,7 @@ To ensure that proper teaching assistance was available at all times, at least
 two instructors were present for each lecture. One of these would act as
 a "helper" and students signal their need for assistance by attaching
 differently colored sticky notes to the back of their laptop monitor. This
-method avoid interrupting the lecture flow when students need assistance and it
+method avoided interrupting the lecture flow when students needed assistance and it
 has been used successfully in workshops developed by The Carpentries
 [@wilson-software-carpentry].
 
