@@ -86,7 +86,7 @@ Bullet point version (can be removed after discussion):
 * Course contains stand-alone lectures that outline broadly useful statistical methods.
 * Modular: lectures can be mixed and matched
 * This course is completely interactive: all lectures are designed to be delivered in a participatory live-coding format so that students learn experientally in real-time.
-* This course contains assignments that sharpen students' understanding and allow them to critically apply skills to new problems.
+* This course contains assignments that sharpen students' understanding and allow them to critically apply skills to new problems.  
 * Students learn creativity and critical thinking through an open-ended, self-directed project that uses real ecological data.
 * Students learn skills for reproducible research throughout the course.
 * Course website - nice looking and easy to use
