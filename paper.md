@@ -58,9 +58,9 @@ bibliography: paper.bib
 
 # Description and eligibility
 
-We present an open source course module designed for simultaneously teaching statistical
-and programming skills in a participatory live-coding format targeting primarily upper year
-undergraduate biology students. Our module has 16 primarily self-contained
+We present an open source course module designed for teaching statistical
+and programming skills in a participatory live-coding format targeting upper year
+undergraduate biology students. Our module has sixteen primarily self-contained
 lectures with topics ranging from data cleaning, manipulation, and visualization,
 to the statistical analysis of biological data and reproducibility through GitHub.
 Our module additionally includes eight assignments that were distributed to
@@ -106,7 +106,7 @@ The overarching objective of the course is to teach reproducible and collaborati
 quanititative research skills. The lectures are designed in
 three main groups: Programming in R [@R], basic data wrangling, and visualizations
 (lectures 1-5), exploratory data analysis, statistics and modelling (lectures
-6-12),  and reproducible science (lectures 13-15). Details for each lecture and the
+6-12), and reproducible science (lectures 13-15). Details for each lecture and the
 packages used throughout the course are in Table 1 below.
 
 | **Module** | **Lecture** | **Description** | **Packages used** |
@@ -115,7 +115,7 @@ packages used throughout the course are in Table 1 below.
 | | <p align="center">2</p> | <p align="center">Vectors, data frames, basic operations and use of functions</p>  | <p align="center">`tidyverse` [@tidyverse]</p> |
 | | <p align="center">3</p> | <p align="center">Exploratory analysis of datasets</p> | <p align="center">`tidyverse` [@tidyverse] |
 | | <p align="center">4</p> | <p align="center">Summary statistics and data visualization </p>| <p align="center">`tidyverse` |
-| | <p align="center">5</p> | <p align="center">Transforming datasets to different formats. Reproducing existing figures</p> | <p align="center">`tidyverse`</p> |
+| | <p align="center">5</p> | <p align="center">Transforming datasets to different formats, reproducing existing figures</p> | <p align="center">`tidyverse`</p> |
 | <p align="center">Exploratory data analysis and statistics</p> | <p align="center">6</p> | <p align="center">Cleaning up and preprocessing of raw data</p> | <p align="center">`tidyverse`; `mice` [@mice]</p> |
 | | <p align="center">7</p> | <p align="center">Basic descriptive and inferential statistical techniques (e.g linear models)</p> | <p align="center">`tidyverse`; `car` [@car]; `psych` [@psych]; `multcomp` [@multcomp]</p> |
 | | <p align="center">8</p> | <p align="center">Linear mixed-effects models</p> | <p align="center">`tidyverse`; `plyr` [@plyr]; `lme4` [@lme4]; `lmerTest` [@lmerTest]</p> |
@@ -125,8 +125,8 @@ packages used throughout the course are in Table 1 below.
 | <p align="center">Numerical models </p>| <p align="center">12</p>| <p align="center">Population modelling using differential equations</p>  | <p align="center">`tidyverse`; `deSolve` [@deSolve]</p> |
 | | <p align="center">13</p>| <p align="center">Time-series data and numerical models</p>  | <p align="center">`tidyverse`; `deSolve`</p> |
 | <p align="center">Collaboration and reproducibility</p> | <p align="center">14</p> | Scientific methods, working in groups and final project group formation</p>  | <p align="center">NA</p> |
-| | <p align="center">15</p>| <p align="center">Collaboration through Git ang GitHub</p>  | <p align="center">NA</p> |
-| | <p align="center">16</p>| <p align="center">Git and GitHub. Metadata and manuscript preparation in R Markdown</p>  | <p align="center">`knitr` [@knitr]; `rmarkdown` [@rmarkdown]</p> |
+| | <p align="center">15</p>| <p align="center">Collaboration through Git and GitHub</p>  | <p align="center">NA</p> |
+| | <p align="center">16</p>| <p align="center">Git and GitHub, metadata and manuscript preparation in R Markdown</p>  | <p align="center">`knitr` [@knitr]; `rmarkdown` [@rmarkdown]</p> |
 
 Table: Overview of modules, lectures, and packages used throughout the course.
 
@@ -157,7 +157,7 @@ approach is frequently used by organizations that teach programming
    while concurrently demonstrating how to use programming to
    create and apply statistical models to data.
 3. *Interleaved Exercises*: Coding exercises or discussion points
-during the lecture were added to assess and confirm that students are
+during the lecture to assess and confirm that students are
 following along.
    - These exercises serve to both challenge the students and slowly
    build confidence in the lesson material.
