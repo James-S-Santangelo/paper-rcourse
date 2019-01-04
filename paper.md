@@ -26,7 +26,7 @@ authors:
 - name: Lina Tran
   orcid: 0000-0003-3504-4524
   affiliation: 8
-- name: Ahmed Hasan
+- name: Ahmed R. Hasan
   orcid: 0000-0003-0002-8399
   affiliation: 6
 - name: James S. Santangelo
@@ -63,8 +63,8 @@ bibliography: paper.bib
 We present an open source learning module suitable for a semester long course
 and designed to leverage participatory live-coding techniques to teach both
 statistical and programming skills to primarily upper-year undergraduate biology
-students. Our learning module has 3 primarily self-contained submodules spanning
-16 lessons: 1) Programming in R, basic data wrangling, and visualizations; 2)
+students. Our learning module has three primarily self-contained submodules spanning
+sixteen lessons: 1) Programming in R, basic data wrangling, and visualizations; 2)
 Exploratory data analysis, statistics and modelling; and 3) Reproducible
 science. Our learning module includes eight assignments, distributed throughout
 the term to assess students' learning and understanding of the material. All materials
@@ -108,33 +108,34 @@ modified by editing the course files on GitHub.
 ## Learning Objectives and Content
 
 The overarching objective of the course is to teach reproducible and
-collaborative quanititative research skills. The lessons are designed into three
-overall submodules: 1) Programming in R [@R], basic data wrangling, and
-visualizations (lessons 1-5); 2) Exploratory data analysis, statistics, and
-modelling (lessons 6-13); and 3) Reproducible science (lessons 14-15). Details
-for each lecture and the packages used throughout the course are in Table 1
-below.
+collaborative quanititative research skills. The lessons are described in more
+detail in Table 1 and are designed into three overall submodules:
 
-| **Module** | **Lecture** | **Description** | **Packages used** |
-| ---------- | ------------- | ------------- | ----------------- |
-| <p align="center">Intro R, data wrangling, visualization</p> | <p align="center">1</p> | <p align="center">Overview of the capabilities of R and R Markdown</p>  | <p align="center">NA</p> |
-| | <p align="center">2</p> | <p align="center">Vectors, data frames, basic operations and use of functions</p>  | <p align="center">`tidyverse` [@tidyverse]</p> |
-| | <p align="center">3</p> | <p align="center">Exploratory analysis of datasets</p> | <p align="center">`tidyverse` [@tidyverse] |
-| | <p align="center">4</p> | <p align="center">Summary statistics and data visualization </p>| <p align="center">`tidyverse` |
-| | <p align="center">5</p> | <p align="center">Transforming datasets to different formats. Reproducing existing figures</p> | <p align="center">`tidyverse`</p> |
-| <p align="center">Exploratory data analysis and statistics</p> | <p align="center">6</p> | <p align="center">Cleaning up and preprocessing of raw data</p> | <p align="center">`tidyverse`; `mice` [@mice]</p> |
-| | <p align="center">7</p> | <p align="center">Basic descriptive and inferential statistical techniques (e.g linear models)</p> | <p align="center">`tidyverse`; `car` [@car]; `psych` [@psych]; `multcomp` [@multcomp]</p> |
-| | <p align="center">8</p> | <p align="center">Linear mixed-effects models</p> | <p align="center">`tidyverse`; `plyr` [@plyr]; `lme4` [@lme4]; `lmerTest` [@lmerTest]</p> |
-| | <p align="center">9</p> | <p align="center">Randomization tests and data simulation</p>  | <p align="center">`tidyverse`; `reshape2` [@reshape2]; `EcoSimR` [@EcoSimR]</p> |
-| | <p align="center">10</p>| <p align="center">Multivariate statistics (e.g. PCA, MANOVA) </p>| <p align="center">`tidyverse`; `car`; `psych`; `multcomp`</p>|
-| | <p align="center">11</p>| <p align="center">Model selection and model averaging</p>  | <p align="center">`tidyverse`; `lme4`; `lmerTest`; `MuMIn` [@MuMIn]</p> |
-| <p align="center">Numerical models </p>| <p align="center">12</p>| <p align="center">Population modelling using differential equations</p>  | <p align="center">`tidyverse`; `deSolve` [@deSolve]</p> |
-| | <p align="center">13</p>| <p align="center">Time-series data and numerical models</p>  | <p align="center">`tidyverse`; `deSolve`</p> |
-| <p align="center">Collaboration and reproducibility</p> | <p align="center">14</p> | Scientific methods, working in groups and final project group formation</p>  | <p align="center">NA</p> |
-| | <p align="center">15</p>| <p align="center">Collaboration through Git ang GitHub</p>  | <p align="center">NA</p> |
-| | <p align="center">16</p>| <p align="center">Git and GitHub. Metadata and manuscript preparation in R Markdown</p>  | <p align="center">`knitr` [@knitr]; `rmarkdown` [@rmarkdown]</p> |
+1) Programming in R [@R], basic data wrangling, and visualizations (lessons 1-5).
+2) Exploratory data analysis, statistics, and modelling (lessons 6-13).
+3) Reproducible science (lessons 14-15). 
 
-Table: Overview of modules, lectures, and packages used throughout the course.
+
+| **Module** | **Lesson** | **Description** | **Packages used** |
+|:----------|:-------------|:-------------|:------------------|
+| Programming in R, data wrangling, visualization | 1 | Introducing R, RStudio, and R Markdown | |
+| | 2 | Vectors, data frames, basic operations, and functions  | `tidyverse` [@tidyverse] |
+| | 3 | Introduction to exploratory data analysis | `tidyverse` |
+| | 4 | Introduction to statistics and visualization | `tidyverse` |
+| | 5 | Data transformation and visualization | `tidyverse` |
+| Exploration and statistical analysis | 6 | Cleaning and preprocessing raw data | `tidyverse`; `mice` [@mice] |
+| | 7 | Descriptive and inferential statistics | `tidyverse`; `car` [@car]; `psych` [@psych]; `multcomp` [@multcomp] |
+| | 8 | Linear mixed-effects models | `tidyverse`; `plyr` [@plyr]; `lme4` [@lme4]; `lmerTest` [@lmerTest] |
+| | 9 | Randomization tests and data simulation  | `tidyverse`; `reshape2` [@reshape2]; `EcoSimR` [@EcoSimR] |
+| | 10 | Multivariate statistics (e.g. PCA) | `tidyverse`; `car`; `psych`; `multcomp`|
+| | 11 | Model selection and averaging  | `tidyverse`; `lme4`; `lmerTest`; `MuMIn` [@MuMIn] |
+| Numerical models | 12| Population modelling with differential equations  | `tidyverse`; `deSolve` [@deSolve] |
+| | 13 | Time-series data and numerical models  | `tidyverse`; `deSolve` |
+| Collaborative and reproducible science | 14 | Scientific methods | |
+| | 15 | Collaborating through Git and GitHub | |
+| | 16 | Git, metadata, and manuscript preparation in R Markdown | `knitr` [@knitr]; `rmarkdown` [@rmarkdown] |
+
+Table: Overview of submodules, lessons, and packages used in the learning module.
 
 ## Instructional Design
 
@@ -162,7 +163,7 @@ approach is frequently used by organizations that teach programming
    while concurrently demonstrating how to use programming to
    create and apply statistical models to data.
 3. *Interleaved Exercises*: Coding exercises or discussion points
-during the lesson were added to assess and confirm that students are
+during the lesson to assess and confirm that students are
 following along.
    - These exercises serve to both challenge the students and slowly
    build confidence in the lesson material.
@@ -175,12 +176,6 @@ competency of students on the lesson material.
    the techniques and concepts from the lesson to solve new problems,
    demonstrating their understanding of the material.
    - Each assignment covers two lessons worth of material.
-
-We found that this combination of clear lesson outlines, coding submodules,
-interleaved exercises, and summative assignments gave each lesson a
-predictable structure. It also ensured that lesson objectives
-were both covered and conveyed effectively in order for students to
-complete both the exercises and assignments.
 
 Each of our lessons built on skills and concepts that would ultimately allow
 students to work on a final open-ended analysis of real open ecological data.
@@ -256,5 +251,15 @@ Biology" [@rcourse] to reflect this change. On
 both occasions, the course received excellent feedback from the students and
 the supervising professors.
 
+# Contributions
+
+LWJ, MB-F, LT, and LC initially conceptualized the course, while JO took
+the initial lead on course development. 
+JO, MB-F, LWJ, LC, ES, and LT designed and taught the first iteration of the course
+JSS, LC, MB-F, and ARH taught the second iteration of the course, with
+guest lectures from SM and LT. 
+Lecture development for second iteration: JO and ARH (1-5), JSS (8, 9, 11), 
+LC (6, 7, 10), MB-F (12, 13), LWJ (14), ARH and SM (15), LT (16). 
+LWJ, MB-F, JO, SM, LT, ARH, and JSS wrote the paper.
 
 # References
