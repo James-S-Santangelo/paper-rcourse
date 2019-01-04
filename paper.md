@@ -59,7 +59,7 @@ bibliography: paper.bib
 # Description and eligibility
 
 We present an open source course module designed for simultaneously teaching statistical
-and programming skills in a participatory live-coding format targeting but not limited to upper year
+and programming skills in a participatory live-coding format targeting primarily upper year
 undergraduate biology students. Our module has 16 primarily self-contained
 lectures with topics ranging from data cleaning, manipulation, and visualization,
 to the statistical analysis of biological data and reproducibility through GitHub.
@@ -80,17 +80,17 @@ Describing why this material is beneficial to the community, why someone else wo
 -->
 
 In traditional undergraduate biology education, students learn coding skills and
-biology concepts separately. This course, designed for third and fourth-year
+concepts in biology separately. This course, designed for third and fourth-year
 undergraduate students, fosters R coding skills in the context of learning
 statistics and ecology. Notably, the materials cover statistical concepts that
 are broadly useful in biological sciences: linear regression, mixed effects models,
 randomization tests, principal component analyses, ANOVA and MANOVA, model
 selection, and numerically solving differential equations. We delivered these
-materials as a four month course, but these concepts are presented in stand-alone
+materials as a four-month course, but these concepts are presented in stand-alone
 lectures designed by an interdisciplinary teaching team that could easily be
 mixed and matched to suit any desired course outcome. The course is completely
 interactive: all lectures are designed to be delivered in a participatory
-live-coding format so that students learn in practice in real-time. The course
+live-coding format so that students learn experientially in real-time. The course
 materials also include assignments matched to lecture materials that sharpen
 students' understanding and allow them to critically apply their skills to new
 problems. Reproducible research skills are emphasized throughout, and the course
@@ -105,7 +105,7 @@ modified by editing the course files on GitHub.
 
 The overarching objective of the course is to teach reproducible and collaborative
 quanititative research skills. The lectures are designed in
-three main groups: Programming in R and basic data wrangling and visualizations
+three main groups: Programming in R, basic data wrangling, and visualizations
 (lectures 1-5), exploratory data analysis, statistics and modelling (lectures
 6-12),  and reproducible science (lectures 13-15).  The following is a brief
 description of learning objectives of the lectures:
@@ -129,7 +129,7 @@ existing figures.
 as linear models.
   - **Lecture 8** focuses on linear mixed effects models to
 analyze fixed and random effects in nested exploratory data.
-  - **Lecture 9** introduces randomization tests and teaches simulating datasets
+  - **Lecture 9** introduces randomization tests, simulating datasets
   and applying such tests to simulated and real data.
   - **Lecture 10** covers multivariate statistics with a focus on
   principle component analysis and multivariate analysis of variance.  
@@ -142,8 +142,8 @@ equations to analyze system dynamics.
 - Reproducible science:
   - **Lecture 13** focuses on time series data and fitting numerical models to data.  
   - **Lecture 14** introduces the scientific method and integrating
-scientific approaches with teamwork dynamics and in assigning roles and tasks. In
-this lecture students form groups for the final course project.
+scientific approaches with teamwork dynamics and assigning roles and tasks. In
+this lecture, students form groups for the final course project.
   - **Lecture 15** focuses on reproducible and
 collaborative research tools such as Git for version control and the GitHub platform.
   - **Lecture 16** finishes the course with the topic of reproducibility. Students
@@ -171,8 +171,8 @@ approach is frequently used by organizations that teach programming
    - These submodules cover all concepts necessary to understand
    the lesson content and complete the take-home assignments and
    in-class exercises. In lectures where the explicit goal was
-   not to learn programming, but a topic such as `Statistical
-   Modelling`, we used the coding submodules to explain the concept
+   not to learn programming, but a topic such as "Statistical
+   Modelling", we used the coding submodules to explain the concept
    while concurrently demonstrating how to use programming to
    create and apply statistical models to data.
 3. *Interleaved Exercises*: Coding exercises or discussion points
@@ -207,7 +207,7 @@ students may come across, including those used for the final projects.
 ## Teaching Experience
 
 For the first iteration of the course, our teaching team consisted of six
-graduate students from several different fields (Physiology, Biomedical
+graduate students from several fields (Physiology, Biomedical
 Engineering, Physics, Psychology, and Nutritional Science); we divided course
 topics among each instructor to develop and deliver individual lessons and
 assignments to the eight participating students. We reduced the number of
