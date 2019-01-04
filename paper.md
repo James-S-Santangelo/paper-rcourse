@@ -171,12 +171,6 @@ competency of students on the lesson material.
    demonstrating their understanding of the material.
    - Each assignment covers two lectures worth of material.
 
-We found that this combination of clear lesson outlines, coding submodules,
-interleaved exercises, and summative assignments gave each lecture a
-predictable structure. It also ensured that lesson objectives
-were both covered and conveyed effectively in order for students to
-complete both the exercises and assignments.
-
 Each of our lectures built on skills and concepts that would ultimately allow
 students to work on a final open-ended analysis of real open ecological data.
 We deliberately chose large and messy (e.g. missing values) datasets for use in the course,
