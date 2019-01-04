@@ -101,56 +101,56 @@ modified by editing the course files on GitHub.
 
 # Main Body
 
-
 ## Learning Objectives and Content
 The overarching objective of the course is to teach quantitative research
 methods that are reproducible and collaborative. The lectures are designed in
 three main groups: Programming in R and basic data wrangling and visualizations
 (lectures 1-5), exploratory data analysis, statistics and modelling (lectures
 6-12), and reproducible science (lectures 13-15). The following is a brief
-description of learning objectives of the lectures based on independent modules:  
-- **Introductory R**:  
-  - **Lecture 1** starts with an overview of the capabilities of R, 
-such as efficient quantitative analysis of data compared to the manual handling of spreadsheets,
- programming in R, and integrating analyses with report generation using R Markdown. 
+description of learning objectives of the lectures:  
+- Introductory R:  
+  - **Lecture 1** is an overview of
+the capabilities of R such as more efficient quantitative analysis of data
+compared to manual handling of spreadsheets, programming in R, and integrating
+analyses with generating reports using R Notebook (markdown syntax).
   - **Lecture 2** introduces fundamental elements in programming with R such as vectors,
 data frames, basic operations, and the use of functions.
   - **Lecture 3** introduces the concept of exploratory analysis of datasets
 with a focus on using the `dplyr` [@dplyr] package.
-  - **Lecture 4** covers the advantage of using summary statistics and 
-data visualization using `tidyverse` [@tidyverse] packages.
-  - **Lecture 5** builds on the concept of tidy data to explore reshaping datasets
+  - **Lecture 4** covers summary statistics and data visualization using `tidyverse` [@tidyverse]
+packages.
+  - **Lecture 5** builds on tidy data with transforming datasets
 to appropriate formats for different scientific questions and for reproducing
 existing figures.  
-- **Exploratory data analysis and statistical models**:
-  - **Lecture 6** focuses on approaches for cleaning up and preprocessing raw data.  
+- Exploratory data analysis and statistical models:
+  - **Lecture 6** focuses on approaches for cleaning and preprocessing raw data.  
   - **Lecture 7** introduces basic descriptive and inferential statistical techniques such
 as linear models.
   - **Lecture 8** focuses on linear mixed effects models to
-analyze the fixed and random effects in nested exploratory data.
+analyze fixed and random effects in nested exploratory data.
   - **Lecture 9** introduces randomization tests and teaches simulating datasets
-  and applying such tests on simulated and read data.
+  and applying such tests to simulated and real data.
   - **Lecture 10** covers multivariate statistics with a focus on
-  principal component analysis and multivariate analysis of variance.  
-- **Numerical modelling**:  
-  - **Lecture 11** introduces the model selection approach, its benefits over traditional  
+  principle component analysis and multivariate analysis of variance.  
+- Numerical modeling:  
+  - **Lecture 11** introduces model selection, its benefits over traditional  
 inferential statistics, and model selection criteria such as Akaike's Information
 Criterion.
-  - **Lecture 12** explores population models and using differential
+  - **Lecture 12** covers population models and using differential
 equations to analyze system dynamics.  
 - Reproducible science:
-  - **Lecture 13** focuses on time series data and fitting numerical models to
-such datasets.  
+  - **Lecture 13** focuses on time series data and fitting numerical models to data.  
   - **Lecture 14** introduces the scientific method and integrating
-scientific approaches with group dynamics and in assigning roles and tasks. In
+scientific approaches with teamwork dynamics and in assigning roles and tasks. In
 this lecture students form groups for the final course project.
-  - **Lecture 15** focuses on reproducible and collaborative research tools, 
-such as version control with Git and GitHub. Each group works within a GitHub 
-repository and the team members learn the basics of collaborating and documenting the progress 
-of the project.
+  - **Lecture 15** focuses on reproducible and
+collaborative research tools such as Git for version control and the GitHub platform.
+Each group works within a GitHub repository and the team members learn the
+basics of documenting the progress of the project and collaborating using these
+tools.
   - **Lecture 16** finishes the course with the topic of reproducibility. Students
-learn about barriers to reproducibility and best practices such as the 
-use of metadata and generating a comprehensive manuscript in R Markdown. 
+learn about barriers to reproducibility and benefits such as metadata
+and generating a comprehensive manuscript in R Markdown.
 
 ## Instructional Design
 
@@ -159,15 +159,17 @@ programming workshops, we designed each of our lectures to have the
 following components:
 
 1. *Lesson Outline*: A clearly defined outline of the lesson
-objectives including expected length of time spent on each objective.
+objectives including expected time spent on each objective.
     - This makes clear to students not only what they can expect to
     learn from the lecture, but also provides a structured template
     for instructors to prioritize content and gauge how long they
-    should be spending on each objective. This sets the expectations
-    for both students and instructors.
+    should be spending on each objective.
 2. *Participatory Live-Coding*: Coding snippets that form the
 teaching content of each lesson objective, taught in-class using
-live-coding.[^1]
+live-coding, a hands-on method of teaching whereby
+instructors share their screen while coding and students follow along. This
+approach is frequently used by organizations that teach programming
+(e.g. [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html)).
    - These submodules cover all concepts necessary to understand
    the lesson content and complete the take-home assigments and
    in-class exercises. In lectures where the explicit goal was
@@ -189,9 +191,9 @@ competency of students on the lesson material.
    - Assignments were designed to challenge the students to apply
    the techniques and concepts from the lesson to solve new problems,
    demonstrating their understanding of the material.
-   - Each assignment covers two lectures worth of course material.
+   - Each assignment covers two lectures worth of material.
 
-We have found that this combination of clear lesson outlines, coding submodules,
+We found that this combination of clear lesson outlines, coding submodules,
 interleaved exercises, and summative assignments gave each lecture a
 predictable structure. It also ensured that lesson objectives
 were both covered and conveyed effectively in order for students to
@@ -211,10 +213,10 @@ For the first iteration of the course, our teaching team consisted of six
 graduate students from several different fields (Physiology, Biomedical
 Engineering, Physics, Psychology, and Nutritional Science); we divided course
 topics among each instructor to develop and deliver individual lessons and
-assignments to the eight participating students. After the core material had
-been developed, we were able to reduce the number of instructors to four graduate
+assignments to the eight participating students. We reduced the number of
+instructors to four graduate
 students for the second iteration (Physics, Ecology and Evolutionary Biology,
-Psychology, and Cell and Systems Biology) while the number of students
+Psychology, and Cell and Systems Biology) and the number of learners
 increased to 26. We estimate that four instructors could effectively teach the
 current iteration of the course to around 40 students.
 
@@ -238,12 +240,12 @@ method avoided interrupting the lecture flow when students needed assistance.
 ## Story of the project
 
 While there are many excellent open source libraries for quantitative data
-analysis, the use of less capable and scalable analysis tools (such as spreadsheet software)
-is still prevalent among graduate students, despite the fact that these drastically reduce
-analysis reproducibility, power, and efficiency. Part of this issue stems from
-lack of awareness, and in part because students are often required to learn
-about new tools in isolation and on top of their main research activities. As
-such, those that do embark on this daunting journey often quit before they can
+analysis, the use of less capable analysis tools (such as spreadsheet software)
+is still prevalent among researchers although these drastically reduce
+analysis reproducibility, power, and efficiency. Partly this happens because of
+lack of awareness, and partly because students are often required to learn
+about new tools in isolation and on top of their main research activities.
+Those that do embark on this daunting journey often quit before they can
 reap the rewards of their efforts. Like-minded peers could provide the needed
 support structure to uphold motivation, but are often few and far between,
 especially in fields without a strong quantitative culture. To remedy these
@@ -263,15 +265,13 @@ Methods"](https://cbahlai.github.io/rqm-template/) a course created by Dr.
 Christie Bahlai, modifying the lesson content to include additional theoretical
 ecology topics but maintaining the focus on reproducibility and computational
 skills. Our teaching team consisted of six graduate students from several
-different fields (Physiology, Biomedical Engineering, Physics, Psychology, and
-Nutritional Science); we divided course topics among each instructor to develop
+different fields; we divided course topics among each instructor to develop
 and deliver individual lessons and assignments.
 
 Following a successful pilot term with a class of eight students, the course
 was incorporated into the long-term curriculum and delivered a second time to a
-class of twenty-six students with a teaching team of four graduate students
-(Physics, Ecology and Evolutionary Biology, Psychology, and Cell and Systems
-Biology). We modified our lecture material to include more generally applicable
+larger class with a teaching team of four graduate students.
+We modified our lecture material to include more generally applicable
 statistical concepts and fewer theoretical ecology concepts, and renamed the
 course ["Quantitative Methods in R for
 Biology."](https://uoftcoders.github.io/rcourse/) to reflect this change. On
