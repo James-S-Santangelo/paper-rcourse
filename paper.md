@@ -65,16 +65,16 @@ and designed to leverage participatory live-coding techniques to teach both
 statistical and programming skills to primarily upper-year undergraduate biology
 students. Our learning module has three primarily self-contained submodules spanning
 sixteen lessons: 1) Programming in R, basic data wrangling, and visualizations; 2)
-Exploratory data analysis, statistics and modelling; and 3) Reproducible
+Exploratory data analysis, statistics, and modelling; and 3) Collaborative and reproducible
 science. Our learning module includes eight assignments, distributed throughout
-the term to assess students' learning and understanding of the material. All materials
-were developed and taught using R Markdown [@rmarkdown], although no prior
-knowledge of the R programming language [@R] is assumed or expected.
-Our material is licensed under CC-BY 4.0 while the code is under an MIT License.
-The open source and modular nature of our computational and statistical learning
-module, as well as the focus on the need for greater programming training of
-future researchers, makes our material an ideal resource for other instructors
-and we believe it would be an excellent contribution to JOSE.
+the term to assess students' learning and understanding of the material. All
+materials were developed and taught using R Markdown, although no prior
+knowledge of the R programming language is assumed or expected. Our material is
+licensed under CC-BY 4.0 while the code is under a MIT License. The open source
+and modular nature of our computational and statistical learning module, as well
+as responding to and emphasizing on the need for greater programming training
+for researchers, makes our material an ideal resource for other instructors and
+we believe it would be an excellent contribution to JOSE.
 
 # Main Body
 
@@ -84,26 +84,28 @@ and we believe it would be an excellent contribution to JOSE.
 Describing why this material is beneficial to the community, why someone else would use it
 -->
 
-In traditional undergraduate biology education, students learn coding skills and
-concepts in biology separately. Designed primarily for upper-year undergraduate
-students, this learning module emphasizes gaining skills in R coding in the
-context of learning statistics and ecology. Notably, the materials cover
-statistical concepts that
-are broadly useful in biological sciences: linear regression, mixed effects models,
-randomization tests, principal component analyses, ANOVA and MANOVA, model
-selection, and numerically solving differential equations. We delivered these
-materials as a four-month course, but these concepts are presented in stand-alone
-lessons designed by an interdisciplinary teaching team that could easily be
-mixed and matched to suit any desired course outcome. The course is completely
-interactive: all lessons are designed to be delivered in a participatory
-live-coding format so that students learn experientially in real-time. The course
-materials also include assignments matched to lesson materials that sharpen
+In traditional undergraduate biology education, students learn statistical
+skills and biological concepts separately, often without any teaching on coding
+itself. Designed primarily for upper-year undergraduate students, this learning
+module emphasizes gaining skills in R coding in the context of learning
+statistics and ecology. Notably, the materials cover statistical concepts that
+are broadly useful in biological sciences, including mixed effects models,
+randomization tests, model selection, and differential equations. While we
+delivered these material and concepts as a four-month semester long course,
+these concepts are structured into primarily independent submodules focused
+around several lessons. All material was designed by an interdisciplinary, PhD
+student-level teaching team that could easily be mixed and matched to suit any
+desired learning module outcome. From the start, lessons were designed to be
+interactive, delivered in a participatory live-coding format so students learn
+experientially. The teaching material includes assignments to hone and reinforce
 students' understanding and allow them to critically apply their skills to new
-problems. Reproducible research skills are emphasized throughout, and the course
-culminates in an open-ended self-directed project that allows students to apply
-their skills to real ecological data. The course repository is linked to an
-auto-generated website that presents the syllabus and materials and is easily
-modified by editing the course files on GitHub.
+problems. Reproducible quantative research skills are emphasized throughout,
+culminating in an open-ended self-directed project that requires students to
+apply their skills to a real ecological dataset and problem. The teaching
+material is publicly hosted in a GitHub repository and has an auto-generated
+website from the source material, so that text, code, and output is presented
+all together. The material is openly available and licensed, anyone can easily
+copy and modify for their own purposes.
 
 ## Learning Objectives and Content
 
@@ -111,19 +113,18 @@ The overarching objective of the course is to teach reproducible and
 collaborative quanititative research skills. The lessons are described in more
 detail in Table 1 and are designed into three overall submodules:
 
-1) Programming in R [@R], basic data wrangling, and visualizations (lessons 1-5).
-2) Exploratory data analysis, statistics, and modelling (lessons 6-13).
-3) Reproducible science (lessons 14-15). 
+1. Programming in R [@R], basic data wrangling, and visualizations (lessons 1-5).
+2. Exploratory and statistical data analysis (lessons 6-13).
+3. Collaborative and reproducible science (lessons 14-15). 
 
-
-| **Module** | **Lesson** | **Description** | **Packages used** |
+| **Submodule** | **Lesson** | **Description** | **Packages used** |
 |:----------|:-------------|:-------------|:------------------|
 | Programming in R, data wrangling, visualization | 1 | Introducing R, RStudio, and R Markdown | |
 | | 2 | Vectors, data frames, basic operations, and functions  | `tidyverse` [@tidyverse] |
 | | 3 | Introduction to exploratory data analysis | `tidyverse` |
 | | 4 | Introduction to statistics and visualization | `tidyverse` |
 | | 5 | Data transformation and visualization | `tidyverse` |
-| Exploration and statistical analysis | 6 | Cleaning and preprocessing raw data | `tidyverse`; `mice` [@mice] |
+| Exploratory and statistical data analysis | 6 | Cleaning and preprocessing raw data | `tidyverse`; `mice` [@mice] |
 | | 7 | Descriptive and inferential statistics | `tidyverse`; `car` [@car]; `psych` [@psych]; `multcomp` [@multcomp] |
 | | 8 | Linear mixed-effects models | `tidyverse`; `plyr` [@plyr]; `lme4` [@lme4]; `lmerTest` [@lmerTest] |
 | | 9 | Randomization tests and data simulation  | `tidyverse`; `reshape2` [@reshape2]; `EcoSimR` [@EcoSimR] |
@@ -133,133 +134,119 @@ detail in Table 1 and are designed into three overall submodules:
 | | 13 | Time-series data and numerical models  | `tidyverse`; `deSolve` |
 | Collaborative and reproducible science | 14 | Scientific methods | |
 | | 15 | Collaborating through Git and GitHub | |
-| | 16 | Git, metadata, and manuscript preparation in R Markdown | `knitr` [@knitr]; `rmarkdown` [@rmarkdown] |
+| | 16 | Manuscript preparation in R Markdown | `knitr` [@knitr]; `rmarkdown` [@rmarkdown] |
 
 Table: Overview of submodules, lessons, and packages used in the learning module.
 
 ## Instructional Design
 
-Drawing from the authors' previous experiences teaching introductory
-programming workshops, we designed each of our lessons to have the
-following components:
+Drawing on the instructors' previous experiences teaching introductory
+programming workshops, we designed our lessons to have the following components:
 
-1. *Lesson Outline*: A clearly defined outline of the lesson
-objectives including expected time spent on each objective.
-    - This makes clear to students not only what they can expect to
-    learn from the lesson, but also provides a structured template
-    for instructors to prioritize content and gauge how long they
-    should be spending on each objective.
-2. *Participatory Live-Coding*: Coding snippets that form the
-teaching content of each lesson objective, taught in-class using
-live-coding, a hands-on method of teaching whereby
-instructors share their screen while coding and students follow along. This
-approach is frequently used by organizations that teach programming
-(e.g. [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html)) [e.g. @carpentry].
-   - These submodules cover all concepts necessary to understand
-   the lesson content and complete the take-home assignments and
-   in-class exercises. In lessons where the explicit goal was
-   not to learn programming, but a topic such as "Statistical
-   Modelling", we used the coding submodules to explain the concept
-   while concurrently demonstrating how to use programming to
-   create and apply statistical models to data.
-3. *Interleaved Exercises*: Coding exercises or discussion points
-during the lesson to assess and confirm that students are
-following along.
-   - These exercises serve to both challenge the students and slowly
-   build confidence in the lesson material.
-   - If many students struggle to successfully complete a given
-   exercise, this is a way for instructors to identify which
-   concepts to go over more thoroughly or clear up any misunderstandings.
-4. *Summative Assignment*: A comprehensive assignment to test the
-competency of students on the lesson material.
-   - Assignments were designed to challenge the students to apply
-   the techniques and concepts from the lesson to solve new problems,
-   demonstrating their understanding of the material.
-   - Each assignment covers two lessons worth of material.
+1. *Lesson Outline*: A clearly defined outline of the lesson objectives
+including expected time spent on each objective. This gives students a clear 
+expectation on what they should learn and gain from the lesson. It also provides
+a structured template for instructors to prioritize content and gauge how much 
+time each objective should take.
+2. *Participatory Live-Coding*: Coding in real-time, with the students actively
+following along, form the primary focus of each lesson material. This hands-on
+approach to teaching is frequently used by teaching organizations such as 
+[Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html))
+[@carpentry;@rubin_effectiveness_2013;@haaranen_programming_2017;@wilson_teaching_2018].
+While most lessons' goals were to learn programming by doing, some lessons were
+heavier on concepts (such as "Statistical Modelling" or "Differential
+Equations"), during which we still used the live-coding approach. This allows 
+to not only demonstrate the concepts in a step-by-step fashion but to also
+show how to practice writing code.
+3. *Interweaved Exercises*: Coding exercises or discussion points are
+interspersed throughout the lesson to assess and reinforce the concepts and
+skills being taught. These exercises challenge the students and help build
+confidence in the material and in the coding skills. They also help instructors
+identify problem areas to then expand on more thoroughly to further reinforce
+learning.
+4. *Summative Assignments*: A comprehensive final assignment is used to test the
+competency of students on the lesson material and expected skills to be gained.
 
-Each of our lessons built on skills and concepts that would ultimately allow
-students to work on a final open-ended analysis of real open ecological data.
-We deliberately chose large and messy (e.g. missing values) datasets for use in the course,
-reflecting the types of data that are being increasingly generated across
-various disciplines. With this goal in mind, we designed lessons to provide the
-building blocks to clean, manipulate, visualize, and analyze any datasets
-students may come across, including those used for the final projects.
+Each of our submodules and individual lessons built on skills and concepts that
+would ultimately allow students to complete a final open-ended analysis of real
+open ecological data. We deliberately chose large and messy (e.g. missing
+values) datasets for the students, reflecting the types of data that are being
+increasingly generated across various disciplines. With this goal in mind, we
+designed lessons to provide the building blocks to clean, manipulate, visualize,
+and analyze any dataset the students may come across, both for the final project
+as well as in their later career.
 
 ## Teaching Experience
 
 For the first iteration of the course, our teaching team consisted of six
-graduate students from several fields (Physiology, Biomedical
-Engineering, Physics, Psychology, and Nutritional Science); we divided course
-topics among each instructor to develop and deliver individual lessons and
-assignments to the eight participating students. We reduced the number of
-instructors to four graduate
-students for the second iteration (Physics, Ecology and Evolutionary Biology,
-Psychology, and Cell and Systems Biology) and the number of learners
-increased to 26. We estimate that four instructors could effectively teach the
-current iteration of the course to around 40 students.
+graduate students from diverse fields of research; we divided course topics among
+each instructor to develop and deliver individual lessons and assignments to the
+eight students. We reduced the number of instructors to four graduate students
+for the second iteration and the number of students increased to 26. We estimate
+four instructors could effectively teach the current iteration of the course to
+around 40 students. We feel having instructors come from multiple fields is a
+major strength and strongly recommend this practice for teaching quantitative 
+research methods and skills.
 
 To maximize the learning experience, we prioritized in-class participation,
 engagement, and hands-on experience. The main teaching techniques we used to
-achieve this were participatory live-coding
-[@rubin_effectiveness_2013;@haaranen_programming_2017;@wilson_teaching_2018]
-where students were asked to complete partial solutions as the class worked through
-the material together, and project-based learning
-[@sawyer_cambridge_2006;@strobel_when_2009;@markham_project_2011] where
-students collaborated in teams on data analysis problems, similar to a real
-world scenario.
+achieve this goal were participatory live-coding, interweaving exercises with
+teaching, and the project-based learning
+[@sawyer_cambridge_2006;@strobel_when_2009;@markham_project_2011] where students
+collaborated in teams on data analysis problems, to mimic a real world scenario.
 
-To ensure that proper teaching assistance was available at all times, we
-adopted a method used successfully in workshops developed by The Carpentries [@wilson-software-carpentry].
-At least two instructors were present for each lesson, with one of these acting as
-a "helper". Students would then signal their need for assistance by attaching
-differently colored sticky notes to the back of their laptop monitor. This
-method avoided interrupting the lesson flow when students needed assistance.
+To ensure proper teaching assistance was available at all times, we adopted a
+technique used successfully in workshops developed by The Carpentries
+[@wilson-software-carpentry]. This technique involved having at least two
+instructors present for each lesson, where one instructed and another acted as a
+"helper". Students would signal for assistance by attaching colored sticky notes
+to the back of their laptop monitor. This method avoided interrupting the lesson
+flow when individual students needed assistance.
 
 ## Story of the project
 
-While there are many excellent open source libraries for quantitative data
-analysis, the use of less capable analysis tools (such as spreadsheet software)
-is still prevalent among researchers although these drastically reduce
-analysis reproducibility, power, and efficiency. Partly this happens because of
-lack of awareness, and partly because students are often required to learn
-about new tools in isolation and on top of their main research activities.
-Those that do embark on this daunting journey often quit before they can
-reap the rewards of their efforts. Like-minded peers could provide the needed
-support structure to uphold motivation, but are often few and far between,
-especially in fields without a strong quantitative culture. To remedy these
-issues, we launched the student group [UofT
-Coders](http://uoftcoders.github.io/) which teaches how to use code for
-research through skill sharing, co-working and community building in a friendly
-environment.
+While there are many excellent open source software available for quantitative
+data analysis, the use of less capable tools (such as spreadsheet software)
+is still prevalent among researchers, even though these drastically reduce
+analytical reproducibility, power, and efficiency. This happens partly due to
+lack of awareness, and partly because students (who will be future researchers)
+often are not incentivized to learn new and better tools, as they usually must
+use what their supervisor or colleagues use. Those who do try to learn these
+modern tools often do so in isolation, without much formal training available,
+and aside from their main research activities. These are major barriers to
+learning. To help break these barries, we launched the graduate student group [UofT
+Coders](http://uoftcoders.github.io/) where we run peer-led learning sessions on
+using code for research through skill sharing, co-working, and community building
+in a friendly and supportive environment.
 
-After receiving overwhelmingly positive feedback on our content and teaching style,
-we sought to formally share our experiences through the university
-curriculum. We designed a course on open, reproducible data analysis, which we
-taught as a fourth-year undergraduate course in the Department of
-Ecology and Evolutionary Biology with the title "Theoretical Ecology and
-Reproducible Quantitative Methods in R." We modelled the structure and portions
-of the course content after ["Reproducible Quantitative
-Methods"](https://cbahlai.github.io/rqm-template/) a course created by Dr.
-Christie Bahlai, modifying the lesson content to include additional theoretical
-ecology topics but maintaining the focus on reproducibility and computational
-skills.
+After running many sessions and after consistently received overwhelmingly
+positive feedback on our content and teaching style, we sought to formally share
+our experiences through the university curriculum. We designed a course on open,
+reproducible data analysis, and contacted multiple departments that would be
+interested in hosting this course. The Department of Ecology and Evolutionary
+Biology at the University of Toronto agreed, and we ran a pilot of the course
+with the title "Theoretical Ecology and Reproducible Quantitative Methods in R"
+to fourth-year undergraduate students. We modelled the structure and portions of
+the course content after the course ["Reproducible Quantitative
+Methods"](https://cbahlai.github.io/rqm-template/), which was created by Dr.
+Christie Bahlai, and then heavily modified the lesson content to include
+expanded material on data wrangling, visualization, reproducibility, and
+collaborative science, as well as additional theoretical ecology topics.
 
-Following a successful pilot term we modified our lesson material to include more generally applicable
-statistical concepts and fewer theoretical ecology concepts, and renamed the
-course "Quantitative Methods in R for
-Biology" [@rcourse] to reflect this change. On
-both occasions, the course received excellent feedback from the students and
-the supervising professors.
+Following a successful pilot term, we modified our lesson material again to
+include more generally applicable statistical concepts and far fewer theoretical
+ecological concepts. We also renamed the course to "Quantitative Methods in R
+for Biology" [@rcourse] to reflect this change. On both occasions, the course
+received excellent feedback from the students and the supervising professors.
 
 # Contributions
 
-LWJ, MB-F, LT, and LC initially conceptualized the course, while JO took
-the initial lead on course development. 
-JO, MB-F, LWJ, LC, ES, and LT designed and taught the first iteration of the course
-JSS, LC, MB-F, and ARH taught the second iteration of the course, with
-guest lectures from SM and LT. 
-Lecture development for second iteration: JO and ARH (1-5), JSS (8, 9, 11), 
-LC (6, 7, 10), MB-F (12, 13), LWJ (14), ARH and SM (15), LT (16). 
-LWJ, MB-F, JO, SM, LT, ARH, and JSS wrote the paper.
+LWJ, MB-F, LT, and LC initially conceptualized the course, while JO took the
+initial lead on course development. JO, MB-F, LWJ, LC, ES, and LT designed and
+taught the first iteration of the course. JSS, LC, MB-F, and ARH taught the
+second iteration of the course, with guest lectures from SM and LT. Lesson
+development for second iteration: JO and ARH (1-5), JSS (8, 9, 11), LC (6, 7,
+10), MB-F (12, 13), LWJ (14), ARH and SM (15), LT (16). LWJ, MB-F, JO, SM, LT,
+ARH, and JSS wrote the paper.
 
 # References
