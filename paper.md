@@ -26,7 +26,7 @@ authors:
 - name: Lina Tran
   orcid: 0000-0003-3504-4524
   affiliation: 8
-- name: Ahmed Hasan
+- name: Ahmed R. Hasan
   orcid: 0000-0003-0002-8399
   affiliation: 6
 - name: James S. Santangelo
@@ -113,7 +113,7 @@ packages used throughout the course are in Table 1 below.
 | ---------- | ------------- | ------------- | ----------------- |
 | <p align="center">Intro R, data wrangling, visualization</p> | <p align="center">1</p> | <p align="center">Overview of the capabilities of R and R Markdown</p>  | <p align="center">NA</p> |
 | | <p align="center">2</p> | <p align="center">Vectors, data frames, basic operations and use of functions</p>  | <p align="center">`tidyverse` [@tidyverse]</p> |
-| | <p align="center">3</p> | <p align="center">Exploratory analysis of datasets</p> | <p align="center">`tidyverse` [@tidyverse] |
+| | <p align="center">3</p> | <p align="center">Exploratory analysis of datasets</p> | <p align="center">`tidyverse` |
 | | <p align="center">4</p> | <p align="center">Summary statistics and data visualization </p>| <p align="center">`tidyverse` |
 | | <p align="center">5</p> | <p align="center">Transforming datasets to different formats, reproducing existing figures</p> | <p align="center">`tidyverse`</p> |
 | <p align="center">Exploratory data analysis and statistics</p> | <p align="center">6</p> | <p align="center">Cleaning up and preprocessing of raw data</p> | <p align="center">`tidyverse`; `mice` [@mice]</p> |
@@ -170,12 +170,6 @@ competency of students on the lesson material.
    the techniques and concepts from the lesson to solve new problems,
    demonstrating their understanding of the material.
    - Each assignment covers two lectures worth of material.
-
-We found that this combination of clear lesson outlines, coding submodules,
-interleaved exercises, and summative assignments gave each lecture a
-predictable structure. It also ensured that lesson objectives
-were both covered and conveyed effectively in order for students to
-complete both the exercises and assignments.
 
 Each of our lectures built on skills and concepts that would ultimately allow
 students to work on a final open-ended analysis of real open ecological data.
@@ -251,5 +245,15 @@ Biology" [@rcourse] to reflect this change. On
 both occasions, the course received excellent feedback from the students and
 the supervising professors.
 
+# Contributions
+
+LWJ, MB-F, LT, and LC initially conceptualized the course, while JO took
+the initial lead on course development. 
+JO, MB-F, LWJ, LC, ES, and LT designed and taught the first iteration of the course
+JSS, LC, MB-F, and ARH taught the second iteration of the course, with
+guest lectures from SM and LT. 
+Lecture development for second iteration: JO and ARH (1-5), JSS (8, 9, 11), 
+LC (6, 7, 10), MB-F (12, 13), LWJ (14), ARH and SM (15), LT (16). 
+LWJ, MB-F, JO, SM, LT, ARH, and JSS wrote the paper.
 
 # References
