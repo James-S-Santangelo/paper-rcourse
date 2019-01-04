@@ -56,26 +56,21 @@ date: 18 December 2018
 bibliography: paper.bib
 ---
 
-# Summary
-
-Possible outine:
-- Background/History
-- From idea to implementation, step by step
-- Instructor experiences and undergraduate feedback
-- Suggestions for other initiatives
-
-Citations to entries in paper.bib should be in
-[rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
-format.
-
-This is an example citation [@figshare_archive].
-
-Figures can be included like this: ![Fidgit deposited in figshare.](figshare_article.png)
-
 # Description and eligibility
 
-We present a stand-alone module designed for simultaneously teaching statistical skills and programming skills in a participatory live-coding format to upper year undergraduate biology students. Our module has 16 primarily self-contained lectures with topics ranging from data cleaning, manipulation, and visualization, to the statistical analysis of biological data and reproducibility through GitHub. Our module additionally includes eight assignments that were distributed to students throughout the term to assess learning and understanding of course material. All materials were developed and taught using R Markdown [@rmarkdown], although no prior knowledge of the R programming language [@R] is assumed prior to taking the course. Course content is licensed under the CC-BY 4.0 licence while code is licensed under MIT. The open-source and stand-alone nature of our computational and statistical learning module makes this material ideally suited to adoption by other instructors and an excellent contribution to JOSE.
-
+We present a stand-alone module designed for simultaneously teaching statistical
+skills and programming skills in a participatory live-coding format to upper year
+undergraduate biology students. Our module has 16 primarily self-contained
+lectures with topics ranging from data cleaning, manipulation, and visualization,
+to the statistical analysis of biological data and reproducibility through GitHub.
+Our module additionally includes eight assignments that were distributed to
+students throughout the term to assess learning and understanding of course
+material. All materials were developed and taught using R Markdown [@rmarkdown], 
+although no prior knowledge of the R programming language [@R] is assumed prior to 
+taking the course. Course content is licensed under the CC-BY 4.0 licence while 
+code is licensed under MIT. The open-source and stand-alone nature of our 
+computational and statistical learning module makes this material ideally suited 
+to adoption by other instructors and an excellent contribution to JOSE.
 
 # Statement of Need
 
@@ -83,7 +78,25 @@ We present a stand-alone module designed for simultaneously teaching statistical
 Describing why this material is beneficial to the community, why someone else would use it
 -->
 
-In traditional undergraduate biology education, students learn coding skills and biology concepts separately. This course, designed for third and fourth-year undergraduate students, fosters R coding skills in the context of learning statistics and ecology. Notably, the materials cover statistical concepts that are broadly useful in biology: linear regression, mixed effects models, randomization tests, principal component analyses, ANOVA and MANOVA, model selection, and numerically solving differential equations. We delivered these materials as a four month course, but these concepts are presented in stand-alone lectures designed by an interdisciplinary teaching team that could easily be mixed and matched to suit any desired course outcomes. The course is completely interactive: all lectures are designed to be delivered in a participatory live-coding format so that students learn experientally in real-time. The course materials also include assignments matched to lecture materials that sharpen students' understanding and allow them to critically apply their skills to new problems. Reproducible research skills are emphasized throughout, and the course culminates in an open-ended, self-directed project that allows students to apply their skills to real ecological data. The course repository is linked to an auto-generated website that presents the syllabus and materials and is easily modified by editing the course files on GitHub.
+In traditional undergraduate biology education, students learn coding skills and
+biology concepts separately. This course, designed for third and fourth-year
+undergraduate students, fosters R coding skills in the context of learning
+statistics and ecology. Notably, the materials cover statistical concepts that
+are broadly useful in biology: linear regression, mixed effects models,
+randomization tests, principal component analyses, ANOVA and MANOVA, model
+selection, and numerically solving differential equations. We delivered these
+materials as a four month course, but these concepts are presented in stand-alone
+lectures designed by an interdisciplinary teaching team that could easily be
+mixed and matched to suit any desired course outcomes. The course is completely
+interactive: all lectures are designed to be delivered in a participatory
+live-coding format so that students learn experientally in real-time. The course
+materials also include assignments matched to lecture materials that sharpen
+students' understanding and allow them to critically apply their skills to new
+problems. Reproducible research skills are emphasized throughout, and the course
+culminates in an open-ended, self-directed project that allows students to apply
+their skills to real ecological data. The course repository is linked to an
+auto-generated website that presents the syllabus and materials and is easily
+modified by editing the course files on GitHub.
 
 Bullet point version (can be removed after discussion):
 
