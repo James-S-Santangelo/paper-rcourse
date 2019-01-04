@@ -114,7 +114,7 @@ the capabilities of R such as more efficient quantitative analysis of data
 compared to manual handling of spreadsheets, programming in R, and integrating
 analyses with generating reports using R Notebook (markdown syntax).
   - **Lecture 2** introduces fundamental elements in programming with R such as vectors,
-data frames, basic operations and use of functions.
+data frames, basic operations, and the use of functions.
   - **Lecture 3** introduces the concept of exploratory analysis of datasets
 with a focus on using the `dplyr` [@dplyr] package.
   - **Lecture 4** covers summary statistics and data visualization using `tidyverse` [@tidyverse]
@@ -144,7 +144,7 @@ equations to analyze system dynamics.
 scientific approaches with teamwork dynamics and in assigning roles and tasks. In
 this lecture students form groups for the final course project.
   - **Lecture 15** focuses on reproducible and
-collaborative research tools such as Git for version control and the Github platform.
+collaborative research tools such as Git for version control and the GitHub platform.
 Each group works within a GitHub repository and the team members learn the
 basics of documenting the progress of the project and collaborating using these
 tools.
@@ -166,11 +166,14 @@ objectives including expected time spent on each objective.
     should be spending on each objective.
 2. *Participatory Live-Coding*: Coding snippets that form the
 teaching content of each lesson objective, taught in-class using
-live-coding.[^1]
+live-coding, a hands-on method of teaching whereby
+instructors share their screen while coding and students follow along. This
+approach is frequently used by organizations that teach programming
+(e.g. [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html)).
    - These submodules cover all concepts necessary to understand
    the lesson content and complete the take-home assigments and
    in-class exercises. In lectures where the explicit goal was
-   not to learn programming but a topic such as `Statistical
+   not to learn programming, but a topic such as `Statistical
    Modelling`, we used the coding submodules to explain the concept
    while concurrently demonstrating how to use programming to
    create and apply statistical models to data.
@@ -179,7 +182,7 @@ during the lecture to assess and confirm that students are
 following along.
    - These exercises serve to both challenge the students and slowly
    build confidence in the lesson material.
-   - Notably, if many students struggle to successfully complete the
+   - If many students struggle to successfully complete a given
    exercise, this is a way for instructors to identify which
    concepts to go over more thoroughly or clear up any misunderstandings
    made along the way.
@@ -198,25 +201,11 @@ complete both the exercises and assignments.
 
 Each of our lectures built on skills and concepts that would ultimately allow
 students to work on a final open-ended analysis of real open ecological data.
-Of note, the datasets we chose for the course were large and messy (e.g. missing
-values), reflecting the type of data that is being increasingly generated across
+We deliberately chose large and messy (e.g. missing values) datasets for use in the course, 
+reflecting the types of data that are being increasingly generated across
 various disciplines. With this goal in mind, we designed lectures to provide the
 building blocks to clean, manipulate, visualize and analyze any datasets
 students may come across, including those used for the final projects.
-
-[^1]: *A note on "live-coding".* Live-coding is a hands-on method of teaching
-coding where the instructor shares their screen with the class and types all
-commands on their computer while the group follows along. Live-coding has proven
-to be a very effective teaching technique as it forces the instructor to go
-slowly and ensures that participants get to try out every command being used.
-Furthermore, mistakes and errors are bound to happen. It allows learners to
-experience common errors themselves and debug them in a supportive
-environment, to explore variations on material as they go, and to
-immediately check their understanding by trying things hands-on.
-See [Teaching Experience](#teaching-experience) for more details.
-This teaching format is heavily influenced by [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html)
-which uses live-coding as a key practice in their introductory programming
-workshops.
 
 ## Teaching Experience
 
@@ -233,28 +222,27 @@ current iteration of the course to around 40 students.
 
 To maximize the learning experience, we prioritized in-class participation,
 engagement, and hands-on experience. The main teaching techniques we used to
-achieve this were participatory live coding
+achieve this were participatory live-coding
 [@rubin_effectiveness_2013;@haaranen_programming_2017;@wilson_teaching_2018]
-where students were asked to complete partial solutions as we worked through
+where students were asked to complete partial solutions as the class worked through
 the material together, and project-based learning
 [@sawyer_cambridge_2006;@strobel_when_2009;@markham_project_2011] where
 students collaborated in teams on data analysis problems, similar to a real
 world scenario.
 
-To ensure that proper teaching assistance was available at all times, at least
-two instructors were present for each lecture. One of these would act as
-a "helper" and students signal their need for assistance by attaching
+To ensure that proper teaching assistance was available at all times, we
+adopted a method used successfully in workshops developed by The Carpentries [@wilson-software-carpentry].
+At least two instructors were present for each lecture, with one of these acting as
+a "helper". Students would then signal their need for assistance by attaching
 differently colored sticky notes to the back of their laptop monitor. This
-method avoided interrupting the lecture flow when students needed assistance and it
-has been used successfully in workshops developed by The Carpentries
-[@wilson-software-carpentry].
+method avoided interrupting the lecture flow when students needed assistance.
 
 ## Story of the project
 
 While there are many excellent open source libraries for quantitative data
 analysis, the use of less capable analysis tools (such as spreadsheet software)
 is still prevalent among researchers although these drastically reduce
-analysis reproducibility, power and efficiency. Partly this happens because of
+analysis reproducibility, power, and efficiency. Partly this happens because of
 lack of awareness, and partly because students are often required to learn
 about new tools in isolation and on top of their main research activities.
 Those that do embark on this daunting journey often quit before they can
@@ -266,11 +254,11 @@ Coders](http://uoftcoders.github.io/) which teaches how to use code for
 research through skill sharing, co-working and community building in a friendly
 environment.
 
-After receiving overwhelmingly positive feedback on content and teaching style,
+After receiving overwhelmingly positive feedback on our content and teaching style,
 we sought to formally share our experiences through the university
-curriculum. We designed a course on open, reproducible data analysis, which we
-taught as a fourth-year undergraduate course in the department of
-Ecology and Evolutionary Biology under the title "Theoretical Ecology and
+curriculum. We designed a course on open, reproducible data analysis, which we 
+taught as a fourth-year undergraduate course in the Department of
+Ecology and Evolutionary Biology with the title "Theoretical Ecology and
 Reproducible Quantitative Methods in R." We modelled the structure and portions
 of the course content after ["Reproducible Quantitative
 Methods"](https://cbahlai.github.io/rqm-template/) a course created by Dr.
