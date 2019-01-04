@@ -106,14 +106,14 @@ The overarching objective of the course is to teach reproducible and collaborati
 quanititative research skills. The lectures are designed in
 three main groups: Programming in R [@R], basic data wrangling, and visualizations
 (lectures 1-5), exploratory data analysis, statistics and modelling (lectures
-6-12),  and reproducible science (lectures 13-15). Details for each lecture and the
+6-13),  and reproducible science (lectures 14-15). Details for each lecture and the
 packages used throughout the course are in Table 1 below.
 
 | **Module** | **Lecture** | **Description** | **Packages used** |
 | ---------- | ------------- | ------------- | ----------------- |
 | <p align="center">Intro R, data wrangling, visualization</p> | <p align="center">1</p> | <p align="center">Overview of the capabilities of R and R Markdown</p>  | <p align="center">NA</p> |
 | | <p align="center">2</p> | <p align="center">Vectors, data frames, basic operations and use of functions</p>  | <p align="center">`tidyverse` [@tidyverse]</p> |
-| | <p align="center">3</p> | <p align="center">Exploratory analysis of datasets</p> | <p align="center">`tidyverse` [@tidyverse] |
+| | <p align="center">3</p> | <p align="center">Exploratory analysis of datasets</p> | <p align="center">`tidyverse` |
 | | <p align="center">4</p> | <p align="center">Summary statistics and data visualization </p>| <p align="center">`tidyverse` |
 | | <p align="center">5</p> | <p align="center">Transforming datasets to different formats. Reproducing existing figures</p> | <p align="center">`tidyverse`</p> |
 | <p align="center">Exploratory data analysis and statistics</p> | <p align="center">6</p> | <p align="center">Cleaning up and preprocessing of raw data</p> | <p align="center">`tidyverse`; `mice` [@mice]</p> |
