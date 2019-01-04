@@ -58,16 +58,16 @@ bibliography: paper.bib
 
 # Description and eligibility
 
-We present a stand-alone module designed for simultaneously teaching statistical
-skills and programming skills in a participatory live-coding format to upper year
+We present an open source course module designed for simultaneously teaching statistical
+and programming skills in a participatory live-coding format targeting but not limited to upper year
 undergraduate biology students. Our module has 16 primarily self-contained
 lectures with topics ranging from data cleaning, manipulation, and visualization,
 to the statistical analysis of biological data and reproducibility through GitHub.
 Our module additionally includes eight assignments that were distributed to
-students throughout the term to assess learning and understanding of course
+students throughout the term to assess learning and understanding of the course
 material. All materials were developed and taught using R Markdown, although no
 prior knowledge of the R programming language is assumed prior to taking the
-course. Course content is licensed under the CC-BY 4.0 licence while code is
+course. Course content is licensed under the CC-BY 4.0 license while code is
 licensed under MIT. The open-source and stand-alone nature of our computational
 and statistical learning module makes this material ideally suited to adoption
 by other instructors and an excellent contribution to JOSE.
@@ -83,18 +83,18 @@ In traditional undergraduate biology education, students learn coding skills and
 biology concepts separately. This course, designed for third and fourth-year
 undergraduate students, fosters R coding skills in the context of learning
 statistics and ecology. Notably, the materials cover statistical concepts that
-are broadly useful in biology: linear regression, mixed effects models,
+are broadly useful in biological sciences: linear regression, mixed effects models,
 randomization tests, principal component analyses, ANOVA and MANOVA, model
 selection, and numerically solving differential equations. We delivered these
 materials as a four month course, but these concepts are presented in stand-alone
 lectures designed by an interdisciplinary teaching team that could easily be
-mixed and matched to suit any desired course outcomes. The course is completely
+mixed and matched to suit any desired course outcome. The course is completely
 interactive: all lectures are designed to be delivered in a participatory
-live-coding format so that students learn experientally in real-time. The course
+live-coding format so that students learn in practice in real-time. The course
 materials also include assignments matched to lecture materials that sharpen
 students' understanding and allow them to critically apply their skills to new
 problems. Reproducible research skills are emphasized throughout, and the course
-culminates in an open-ended, self-directed project that allows students to apply
+culminates in an open-ended self-directed project that allows students to apply
 their skills to real ecological data. The course repository is linked to an
 auto-generated website that presents the syllabus and materials and is easily
 modified by editing the course files on GitHub.
@@ -169,21 +169,20 @@ instructors share their screen while coding and students follow along. This
 approach is frequently used by organizations that teach programming
 (e.g. [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html)).
    - These submodules cover all concepts necessary to understand
-   the lesson content and complete the take-home assigments and
+   the lesson content and complete the take-home assignments and
    in-class exercises. In lectures where the explicit goal was
    not to learn programming, but a topic such as `Statistical
    Modelling`, we used the coding submodules to explain the concept
    while concurrently demonstrating how to use programming to
    create and apply statistical models to data.
 3. *Interleaved Exercises*: Coding exercises or discussion points
-during the lecture to assess and confirm that students are
+during the lecture were added to assess and confirm that students are
 following along.
    - These exercises serve to both challenge the students and slowly
    build confidence in the lesson material.
    - If many students struggle to successfully complete a given
    exercise, this is a way for instructors to identify which
-   concepts to go over more thoroughly or clear up any misunderstandings
-   made along the way.
+   concepts to go over more thoroughly or clear up any misunderstandings.
 4. *Summative Assignment*: A comprehensive assignment to test the
 competency of students on the lesson material.
    - Assignments were designed to challenge the students to apply
@@ -262,13 +261,9 @@ of the course content after ["Reproducible Quantitative
 Methods"](https://cbahlai.github.io/rqm-template/) a course created by Dr.
 Christie Bahlai, modifying the lesson content to include additional theoretical
 ecology topics but maintaining the focus on reproducibility and computational
-skills. We divided course topics among each instructor to develop
-and deliver individual lessons and assignments.
+skills.
 
-Following a successful pilot term with a class of eight students, the course
-was incorporated into the long-term curriculum and delivered a second time to a
-larger class with a teaching team of four graduate students.
-We modified our lecture material to include more generally applicable
+Following a successful pilot term we modified our lecture material to include more generally applicable
 statistical concepts and fewer theoretical ecology concepts, and renamed the
 course ["Quantitative Methods in R for
 Biology."](https://uoftcoders.github.io/rcourse/) to reflect this change. On
