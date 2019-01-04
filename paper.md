@@ -106,49 +106,30 @@ The overarching objective of the course is to teach reproducible and collaborati
 quanititative research skills. The lectures are designed in
 three main groups: Programming in R [@R], basic data wrangling, and visualizations
 (lectures 1-5), exploratory data analysis, statistics and modelling (lectures
-6-12),  and reproducible science (lectures 13-15).  The following is a brief
-description of learning objectives of the lectures:
-- Introductory R:
-  - **Lecture 1** provides an overview of
-the capabilities of R such as more efficient quantitative analysis of data
-compared to manual handling of spreadsheets, programming in R, and integrating
-analyses with generating reports using R Markdown.
-  - **Lecture 2** introduces fundamental elements in programming with R such as vectors,
-data frames, basic operations, and the use of functions.
-  - **Lecture 3** introduces the concept of exploratory analysis of datasets
-with a focus on using the `dplyr` [@dplyr] package.
-  - **Lecture 4** covers summary statistics and data visualization using `tidyverse` [@tidyverse]
-packages.
-  - **Lecture 5** builds on tidy data with transforming datasets
-to appropriate formats for different scientific questions and for reproducing
-existing figures.
-- Exploratory data analysis and statistical models:
-  - **Lecture 6** focuses on approaches for cleaning and preprocessing raw data.  
-  - **Lecture 7** introduces basic descriptive and inferential statistical techniques such
-as linear models.
-  - **Lecture 8** focuses on linear mixed effects models to
-analyze fixed and random effects in nested exploratory data using `lme4` [@lme4] and
-`lmerTest` [@lmerTest].
-  - **Lecture 9** introduces randomization tests, simulating datasets
-  and applying such tests to simulated and real data.
-  - **Lecture 10** covers multivariate statistics with a focus on
-  principle component analysis and multivariate analysis of variance.  
-- Numerical modeling:  
-  - **Lecture 11** introduces model selection, its benefits over traditional  
-inferential statistics, and model selection criteria such as Akaike's Information
-Criterion.
-  - **Lecture 12** covers population models and using differential
-equations to analyze system dynamics.  
-- Reproducible science:
-  - **Lecture 13** focuses on time series data and fitting numerical models to data.  
-  - **Lecture 14** introduces the scientific method and integrating
-scientific approaches with teamwork dynamics and assigning roles and tasks. In
-this lecture, students form groups for the final course project.
-  - **Lecture 15** focuses on reproducible and
-collaborative research tools such as Git for version control and the GitHub platform.
-  - **Lecture 16** finishes the course with the topic of reproducibility. Students
-learn the barriers to reproducibility, and the beneficial approaches such as the use of metadata
-and generating comprehensive manuscript in R Markdown.
+6-12),  and reproducible science (lectures 13-15). Details for each lecture and the
+packages used throughout the course are in Table 1 below.
+
+| **Module** | **Lecture** | **Description** | **Packages used** |
+| ---------- | ------------- | ------------- | ----------------- |
+| <p align="center">Intro R, data wrangling, visualization</p> | <p align="center">1</p> | <p align="center">Overview of the capabilities of R and R Markdown</p>  | <p align="center">NA</p> |
+| | <p align="center">2</p> | <p align="center">Vectors, data frames, basic operations and use of functions</p>  | <p align="center">`tidyverse` [@tidyverse]</p> |
+| | <p align="center">3</p> | <p align="center">Exploratory analysis of datasets</p> | <p align="center">`tidyverse` [@tidyverse] |
+| | <p align="center">4</p> | <p align="center">Summary statistics and data visualization </p>| <p align="center">`tidyverse` |
+| | <p align="center">5</p> | <p align="center">Transforming datasets to different formats. Reproducing existing figures</p> | <p align="center">`tidyverse`</p> |
+| <p align="center">Exploratory data analysis and statistics</p> | <p align="center">6</p> | <p align="center">Cleaning up and preprocessing of raw data</p> | <p align="center">`tidyverse`; `mice` [@mice]</p> |
+| | <p align="center">7</p> | <p align="center">Basic descriptive and inferential statistical techniques (e.g linear models)</p> | <p align="center">`tidyverse`; `car` [@car]; `psych` [@psych]; `multcomp` [@multcomp]</p> |
+| | <p align="center">8</p> | <p align="center">Linear mixed-effects models</p> | <p align="center">`tidyverse`; `plyr` [@plyr]; `lme4` [@lme4]; `lmerTest` [@lmerTest]</p> |
+| | <p align="center">9</p> | <p align="center">Randomization tests and data simulation</p>  | <p align="center">`tidyverse`; `reshape2` [@reshape2]; `EcoSimR` [@EcoSimR]</p> |
+| | <p align="center">10</p>| <p align="center">Multivariate statistics (e.g. PCA, MANOVA) </p>| <p align="center">`tidyverse`; `car`; `psych`; `multcomp`</p>|
+| | <p align="center">11</p>| <p align="center">Model selection and model averaging</p>  | <p align="center">`tidyverse`; `lme4`; `lmerTest`; `MuMIn` [@MuMIn]</p> |
+| <p align="center">Numerical models </p>| <p align="center">12</p>| <p align="center">Population modelling using differential equations</p>  | <p align="center">`tidyverse`; `deSolve` [@deSolve]</p> |
+| | <p align="center">13</p>| <p align="center">Time-series data and numerical models</p>  | <p align="center">`tidyverse`; `deSolve`</p> |
+| <p align="center">Collaboration and reproducibility</p> | <p align="center">14</p> | Scientific methods, working in groups and final project group formation</p>  | <p align="center">NA</p> |
+| | <p align="center">15</p>| <p align="center">Collaboration through Git ang GitHub</p>  | <p align="center">NA</p> |
+| | <p align="center">16</p>| <p align="center">Git and GitHub. Metadata and manuscript preparation in R Markdown</p>  | <p align="center">`knitr` [@knitr]; `rmarkdown` [@rmarkdown]</p> |
+
+Table: Overview of modules, lectures, and packages used throughout the course.
+
 
 ## Instructional Design
 
@@ -198,7 +179,7 @@ complete both the exercises and assignments.
 
 Each of our lectures built on skills and concepts that would ultimately allow
 students to work on a final open-ended analysis of real open ecological data.
-We deliberately chose large and messy (e.g. missing values) datasets for use in the course, 
+We deliberately chose large and messy (e.g. missing values) datasets for use in the course,
 reflecting the types of data that are being increasingly generated across
 various disciplines. With this goal in mind, we designed lectures to provide the
 building blocks to clean, manipulate, visualize, and analyze any datasets
@@ -253,7 +234,7 @@ environment.
 
 After receiving overwhelmingly positive feedback on our content and teaching style,
 we sought to formally share our experiences through the university
-curriculum. We designed a course on open, reproducible data analysis, which we 
+curriculum. We designed a course on open, reproducible data analysis, which we
 taught as a fourth-year undergraduate course in the Department of
 Ecology and Evolutionary Biology with the title "Theoretical Ecology and
 Reproducible Quantitative Methods in R." We modelled the structure and portions
