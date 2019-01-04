@@ -26,7 +26,7 @@ authors:
 - name: Lina Tran
   orcid: 0000-0003-3504-4524
   affiliation: 8
-- name: Ahmed Hasan
+- name: Ahmed R. Hasan
   orcid: 0000-0003-0002-8399
   affiliation: 6
 - name: James S. Santangelo
@@ -270,5 +270,15 @@ Biology" [@rcourse] to reflect this change. On
 both occasions, the course received excellent feedback from the students and
 the supervising professors.
 
+# Contributions
+
+LWJ, MB-F, LT, and LC initially conceptualized the course, while JO took
+the initial lead on course development. 
+JO, MB-F, LWJ, LC, ES, and LT designed and taught the first iteration of the course
+JSS, LC, MB-F, and AH taught the second iteration of the course, with
+guest lectures from SM and LT. 
+Lecture development for second iteration: JO and AH (1-5), JSS (8, 9, 11), 
+LC (6, 7, 10), MB-F (12, 13), LWJ (14), AH and SM (15), LT (16). 
+LWJ, MB-F, JO, SM, LT, ARH, and JSS wrote the paper.
 
 # References
