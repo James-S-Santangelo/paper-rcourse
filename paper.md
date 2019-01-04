@@ -102,17 +102,18 @@ modified by editing the course files on GitHub.
 # Main Body
 
 ## Learning Objectives and Content
-The overarching objective of the course is to teach quantitative research
-methods that are reproducible and collaborative. The lectures are designed in
+
+The overarching objective of the course is to teach reproducible and collaborative
+quanititative research skills. The lectures are designed in
 three main groups: Programming in R and basic data wrangling and visualizations
 (lectures 1-5), exploratory data analysis, statistics and modelling (lectures
-6-12), and reproducible science (lectures 13-15). The following is a brief
-description of learning objectives of the lectures:  
-- Introductory R:  
-  - **Lecture 1** is an overview of
+6-12),  and reproducible science (lectures 13-15).  The following is a brief
+description of learning objectives of the lectures:
+- Introductory R:
+  - **Lecture 1** provides an overview of
 the capabilities of R such as more efficient quantitative analysis of data
 compared to manual handling of spreadsheets, programming in R, and integrating
-analyses with generating reports using R Notebook (markdown syntax).
+analyses with generating reports using R Markdown.
   - **Lecture 2** introduces fundamental elements in programming with R such as vectors,
 data frames, basic operations, and the use of functions.
   - **Lecture 3** introduces the concept of exploratory analysis of datasets
@@ -121,7 +122,7 @@ with a focus on using the `dplyr` [@dplyr] package.
 packages.
   - **Lecture 5** builds on tidy data with transforming datasets
 to appropriate formats for different scientific questions and for reproducing
-existing figures.  
+existing figures.
 - Exploratory data analysis and statistical models:
   - **Lecture 6** focuses on approaches for cleaning and preprocessing raw data.  
   - **Lecture 7** introduces basic descriptive and inferential statistical techniques such
@@ -145,12 +146,9 @@ scientific approaches with teamwork dynamics and in assigning roles and tasks. I
 this lecture students form groups for the final course project.
   - **Lecture 15** focuses on reproducible and
 collaborative research tools such as Git for version control and the GitHub platform.
-Each group works within a GitHub repository and the team members learn the
-basics of documenting the progress of the project and collaborating using these
-tools.
   - **Lecture 16** finishes the course with the topic of reproducibility. Students
-learn about barriers to reproducibility and benefits such as metadata
-and generating a comprehensive manuscript in R Markdown.
+learn the barriers to reproducibility, and the beneficial approaches such as the use of metadata
+and generating comprehensive manuscript in R Markdown.
 
 ## Instructional Design
 
@@ -204,7 +202,7 @@ students to work on a final open-ended analysis of real open ecological data.
 We deliberately chose large and messy (e.g. missing values) datasets for use in the course, 
 reflecting the types of data that are being increasingly generated across
 various disciplines. With this goal in mind, we designed lectures to provide the
-building blocks to clean, manipulate, visualize and analyze any datasets
+building blocks to clean, manipulate, visualize, and analyze any datasets
 students may come across, including those used for the final projects.
 
 ## Teaching Experience
@@ -264,8 +262,7 @@ of the course content after ["Reproducible Quantitative
 Methods"](https://cbahlai.github.io/rqm-template/) a course created by Dr.
 Christie Bahlai, modifying the lesson content to include additional theoretical
 ecology topics but maintaining the focus on reproducibility and computational
-skills. Our teaching team consisted of six graduate students from several
-different fields; we divided course topics among each instructor to develop
+skills. We divided course topics among each instructor to develop
 and deliver individual lessons and assignments.
 
 Following a successful pilot term with a class of eight students, the course
