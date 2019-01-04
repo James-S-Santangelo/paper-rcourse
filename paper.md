@@ -65,13 +65,12 @@ lectures with topics ranging from data cleaning, manipulation, and visualization
 to the statistical analysis of biological data and reproducibility through GitHub.
 Our module additionally includes eight assignments that were distributed to
 students throughout the term to assess learning and understanding of the course
-material. All materials were developed and taught using R Markdown, although no
-prior knowledge of the R programming language is assumed prior to taking the
+material. All materials were developed and taught using R Markdown [@rmarkdown], although no
+prior knowledge of the R programming language [@R] is assumed prior to taking the
 course. Course content is licensed under the CC-BY 4.0 license while code is
 licensed under MIT. The open-source and stand-alone nature of our computational
 and statistical learning module makes this material ideally suited to adoption
 by other instructors and an excellent contribution to JOSE.
-
 
 # Statement of Need
 
@@ -105,7 +104,7 @@ modified by editing the course files on GitHub.
 
 The overarching objective of the course is to teach reproducible and collaborative
 quanititative research skills. The lectures are designed in
-three main groups: Programming in R, basic data wrangling, and visualizations
+three main groups: Programming in R [@R], basic data wrangling, and visualizations
 (lectures 1-5), exploratory data analysis, statistics and modelling (lectures
 6-12),  and reproducible science (lectures 13-15).  The following is a brief
 description of learning objectives of the lectures:
@@ -128,7 +127,8 @@ existing figures.
   - **Lecture 7** introduces basic descriptive and inferential statistical techniques such
 as linear models.
   - **Lecture 8** focuses on linear mixed effects models to
-analyze fixed and random effects in nested exploratory data.
+analyze fixed and random effects in nested exploratory data using `lme4` [@lme4] and
+`lmerTest` [@lmerTest].
   - **Lecture 9** introduces randomization tests, simulating datasets
   and applying such tests to simulated and real data.
   - **Lecture 10** covers multivariate statistics with a focus on
@@ -167,7 +167,7 @@ teaching content of each lesson objective, taught in-class using
 live-coding, a hands-on method of teaching whereby
 instructors share their screen while coding and students follow along. This
 approach is frequently used by organizations that teach programming
-(e.g. [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html)).
+(e.g. [Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html)) [e.g. @carpentry].
    - These submodules cover all concepts necessary to understand
    the lesson content and complete the take-home assignments and
    in-class exercises. In lectures where the explicit goal was
@@ -265,8 +265,8 @@ skills.
 
 Following a successful pilot term we modified our lecture material to include more generally applicable
 statistical concepts and fewer theoretical ecology concepts, and renamed the
-course ["Quantitative Methods in R for
-Biology."](https://uoftcoders.github.io/rcourse/) to reflect this change. On
+course "Quantitative Methods in R for
+Biology" [@rcourse] to reflect this change. On
 both occasions, the course received excellent feedback from the students and
 the supervising professors.
 
