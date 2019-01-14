@@ -63,18 +63,18 @@ bibliography: paper.bib
 We present an open source learning module suitable for a semester long course
 and designed to leverage participatory live-coding techniques to teach both
 statistical and programming skills to primarily upper-year undergraduate biology
-students. Our learning module has three primarily self-contained submodules spanning
+students. Our learning module has three self-contained submodules spanning
 sixteen lessons: 1) Programming in R, basic data wrangling, and visualizations; 2)
 Exploratory data analysis, statistics, and modelling; and 3) Collaborative and reproducible
 science. Our learning module includes eight assignments, distributed throughout
-the term to assess students' learning and understanding of the material. All
-materials were developed and taught using R Markdown, although no prior
-knowledge of the R programming language is assumed or expected. Our material is
-licensed under CC-BY 4.0 while the code is under a MIT License. The open source
-and modular nature of our computational and statistical learning module, as well
-as responding to and emphasizing on the need for greater programming training
-for researchers, makes our material an ideal resource for other instructors and
-we believe it would be an excellent contribution to JOSE.
+the term to assess students' learning and understanding. The material is made
+available as R Markdown documents and designed to be taught using R Notebooks.
+Students are not expected to have any prior knowledge of the R language. Our
+material is licensed under CC-BY 4.0 while the code is under the MIT License. 
+Our course is a response to the growing need for programmatic training
+emphasizing sound data analysis practices among researchers. We believe the
+included topics, such as open accessibility and modularity, makes our course an
+ideal resource for instructors and an excellent contribution to JOSE.
 
 # Main Body
 
@@ -85,35 +85,34 @@ Describing why this material is beneficial to the community, why someone else wo
 -->
 
 In traditional undergraduate biology education, students learn statistical
-skills and biological concepts separately, often without any teaching on coding
-itself. Designed primarily for upper-year undergraduate students, this learning
-module emphasizes gaining skills in R coding in the context of learning
-statistics and ecology. Notably, the materials cover statistical concepts that
+skills and biological concepts separately, without any practical application
+through coding. Designed primarily for upper-year undergraduate students, this
+learning module emphasizes gaining skills in R coding in the context of learning
+statistics and ecology. Notably, the material covers statistical concepts that
 are broadly useful in biological sciences, including mixed effects models,
 randomization tests, model selection, and differential equations. While we
-delivered these material and concepts as a four-month semester long course,
+delivered the material and concepts as a four-month long course,
 these concepts are structured into primarily independent submodules focused
-around several lessons. All material was designed by an interdisciplinary, PhD
-student-level teaching team that could easily be mixed and matched to suit any
-desired learning module outcome. From the start, lessons were designed to be
-interactive, delivered in a participatory live-coding format so students learn
+around several lessons, which could easily be mixed and matched to suit any
+desired learning outcome. Lessons were designed to be
+interactive and delivered in a participatory live-coding format so students learn
 experientially. The teaching material includes assignments to hone and reinforce
 students' understanding and allow them to critically apply their skills to new
-problems. Reproducible quantative research skills are emphasized throughout,
+problems. Reproducible quantitative research skills are emphasized throughout,
 culminating in an open-ended self-directed project that requires students to
 apply their skills to a real ecological dataset and problem. The teaching
-material is publicly hosted in a GitHub repository and has an auto-generated
-website from the source material, so that text, code, and output is presented
-all together. The material is openly available and licensed, anyone can easily
-copy and modify for their own purposes.
+material is hosted in a public GitHub repository which automatically generates a
+website that presents the text, code, and code output together on the same page.
+The material is openly available and licensed; anyone can easily copy and modify
+for their own purposes.
 
 ## Learning Objectives and Content
 
 The overarching objective of the course is to teach reproducible and
-collaborative quanititative research skills. The lessons are described in more
-detail in Table 1 and are designed into three overall submodules:
+collaborative quantitative research skills. The lessons are described in more
+detail in Table 1 and are organized into three submodules:
 
-1. Programming in R [@R], basic data wrangling, and visualizations (lessons 1-5).
+1. Programming in R [@R], basic data wrangling, and visualization (lessons 1-5).
 2. Exploratory and statistical data analysis (lessons 6-13).
 3. Collaborative and reproducible science (lessons 14-15). 
 
@@ -143,29 +142,32 @@ Table: Overview of submodules, lessons, and packages used in the learning module
 Drawing on the instructors' previous experiences teaching introductory
 programming workshops, we designed our lessons to have the following components:
 
-1. *Lesson Outline*: A clearly defined outline of the lesson objectives
+1. *Lesson Outline*: Each lesson has a clearly defined outline of the lesson objectives,
 including expected time spent on each objective. This gives students a clear 
-expectation on what they should learn and gain from the lesson. It also provides
+expectation of what they should learn and gain from the lesson. It also provides
 a structured template for instructors to prioritize content and gauge how much 
 time each objective should take.
-2. *Participatory Live-Coding*: Coding in real-time, with the students actively
-following along, form the primary focus of each lesson material. This hands-on
+2. *Participatory Live-Coding*: Coding in real-time with the students actively
+coding along, forms the primary focus of each lesson. This hands-on
 approach to teaching is frequently used by teaching organizations such as 
-[Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html))
+[Software Carpentry](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html)
 [@carpentry;@rubin_effectiveness_2013;@haaranen_programming_2017;@wilson_teaching_2018].
-While most lessons' goals were to learn programming by doing, some lessons were
-heavier on concepts (such as "Statistical Modelling" or "Differential
-Equations"), during which we still used the live-coding approach. This allows 
-to not only demonstrate the concepts in a step-by-step fashion but to also
-show how to practice writing code.
-3. *Interweaved Exercises*: Coding exercises or discussion points are
-interspersed throughout the lesson to assess and reinforce the concepts and
+While many learning outcomes focused on developing programming proficiency, some lessons were
+centred around concepts (such as "Statistical Modelling" or "Differential
+Equations"), during which we still used the live-coding approach. This approach
+not only demonstrates the concepts in a step-by-step fashion but also helps
+students practice writing code.
+3. *Interwoven Exercises*: Coding exercises or discussion points are
+interspersed throughout each lesson to assess and reinforce the concepts and
 skills being taught. These exercises challenge the students and help build
-confidence in the material and in the coding skills. They also help instructors
-identify problem areas to then expand on more thoroughly to further reinforce
-learning.
-4. *Summative Assignments*: A comprehensive final assignment is used to test the
-competency of students on the lesson material and expected skills to be gained.
+confidence in the material and in their coding skills. They also help instructors
+identify problem areas that should be further reinforced later in the lesson or
+submodule.
+4. *Summative Assignments*: Lesson specific assignments are used every two
+lessons to test the competency of students to the lesson material and expected
+skills to be gained, while a comprehensive final assignment is used to test the
+students' ability to bring together all concepts learned throughout the learning 
+module.
 
 Each of our submodules and individual lessons built on skills and concepts that
 would ultimately allow students to complete a final open-ended analysis of real
@@ -174,7 +176,7 @@ values) datasets for the students, reflecting the types of data that are being
 increasingly generated across various disciplines. With this goal in mind, we
 designed lessons to provide the building blocks to clean, manipulate, visualize,
 and analyze any dataset the students may come across, both for the final project
-as well as in their later career.
+and in their future research.
 
 ## Teaching Experience
 
@@ -191,9 +193,9 @@ research methods and skills.
 To maximize the learning experience, we prioritized in-class participation,
 engagement, and hands-on experience. The main teaching techniques we used to
 achieve this goal were participatory live-coding, interweaving exercises with
-teaching, and the project-based learning
+teaching, and project-based learning
 [@sawyer_cambridge_2006;@strobel_when_2009;@markham_project_2011] where students
-collaborated in teams on data analysis problems, to mimic a real world scenario.
+collaborated in teams on data analysis problems to mimic a real world scenario.
 
 To ensure proper teaching assistance was available at all times, we adopted a
 technique used successfully in workshops developed by The Carpentries
@@ -205,21 +207,21 @@ flow when individual students needed assistance.
 
 ## Story of the project
 
-While there are many excellent open source software available for quantitative
+While there are many excellent open source software packages available for quantitative
 data analysis, the use of less capable tools (such as spreadsheet software)
 is still prevalent among researchers, even though these drastically reduce
 analytical reproducibility, power, and efficiency. This happens partly due to
-lack of awareness, and partly because students (who will be future researchers)
+lack of awareness, and partly because graduate students, many of whom will be future researchers,
 often are not incentivized to learn new and better tools, as they usually must
 use what their supervisor or colleagues use. Those who do try to learn these
-modern tools often do so in isolation, without much formal training available,
-and aside from their main research activities. These are major barriers to
-learning. To help break these barries, we launched the graduate student group [UofT
-Coders](http://uoftcoders.github.io/) where we run peer-led learning sessions on
+modern tools often do so in isolation and without much formal training available.
+These are major barriers to
+learning. To help break down these barries, we launched the graduate student group 
+[University of Toronto Coders](http://uoftcoders.github.io/) where we run peer-led learning sessions on
 using code for research through skill sharing, co-working, and community building
 in a friendly and supportive environment.
 
-After running many sessions and after consistently received overwhelmingly
+After running many sessions and consistently receiving overwhelmingly
 positive feedback on our content and teaching style, we sought to formally share
 our experiences through the university curriculum. We designed a course on open,
 reproducible data analysis, and contacted multiple departments that would be
@@ -233,7 +235,7 @@ Christie Bahlai, and then heavily modified the lesson content to include
 expanded material on data wrangling, visualization, reproducibility, and
 collaborative science, as well as additional theoretical ecology topics.
 
-Following a successful pilot term, we modified our lesson material again to
+Following a successful pilot term, we modified our lesson material further again to
 include more generally applicable statistical concepts and far fewer theoretical
 ecological concepts. We also renamed the course to "Quantitative Methods in R
 for Biology" [@rcourse] to reflect this change. On both occasions, the course
@@ -247,6 +249,7 @@ taught the first iteration of the course. JSS, LC, MB-F, and ARH taught the
 second iteration of the course, with guest lectures from SM and LT. Lesson
 development for second iteration: JO and ARH (1-5), JSS (8, 9, 11), LC (6, 7,
 10), MB-F (12, 13), LWJ (14), ARH and SM (15), LT (16). LWJ, MB-F, JO, SM, LT,
-ARH, and JSS wrote the paper.
+ARH, and JSS wrote the paper. LWJ, MB-F, ES, JO, LT, JSS, and AH proofread and
+editted the final draft.
 
 # References
