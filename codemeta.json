@@ -8,7 +8,7 @@
       "email": "lwjohnst@ph.au.dk",
       "name": "Luke Johnston",
       "affiliation": "Department of Nutritional Sciences, University of Toronto; Department of Public Health, Aarhus University"
-    }
+    },
     {
       "@id": "0000-0002-5813-4664",
       "@type": "Person",
@@ -36,28 +36,28 @@
       "email": "james.santangelo@mail.utoronto.ca",
       "name": "James Santangelo",
       "affiliation": "Department of Ecology and Evolutionary Biology, University of Toronto"
-    }
+    },
     {
       "@id": "0000-0003-3504-4524",
       "@type": "Person",
       "email": "lina.tran@mail.utoronto.ca",
       "name": "Lina Tran",
       "affiliation": "Department of Physiology, University of Toronto"
-    }
+    },
     {
       "@id": "0000-0002-6765-0898",
       "@type": "Person",
       "email": "sara.mahallati@mail.utoronto.ca",
       "name": "Sara Mahallati",
       "affiliation": "Institute of Biomaterials and Biomedical Engineering, University of Toronto"
-    }
+    },
     {
       "@id": "",
       "@type": "Person",
       "email": "lindsay.coome@mail.utoronto.ca",
       "name": "Lindsay Coome",
       "affiliation": "Department of Psychology, University of Toronto"
-    }
+    },
     {
       "@id": "0000-0001-7310-8942",
       "@type": "Person",
