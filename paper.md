@@ -214,35 +214,35 @@ often are not incentivized to learn new and better tools, as they usually must
 use what their supervisor or colleagues use. Those who do try to learn these
 modern tools often do so in isolation, without much formal training available,
 and aside from their main research activities. These are major barriers to
-learning. To help break these barries, we launched the graduate student group [UofT
-Coders](http://uoftcoders.github.io/) where we run peer-led learning sessions on
+learning. To help break down these barriers, we launched the graduate student group [UofT
+Coders](https://uoftcoders.github.io/) where we run peer-led learning sessions on
 using code for research through skill sharing, co-working, and community building
 in a friendly and supportive environment.
 
 After running many sessions and after consistently received overwhelmingly
 positive feedback on our content and teaching style, we sought to formally share
 our experiences through the university curriculum. We designed a course on open,
-reproducible data analysis, and contacted multiple departments that would be
+reproducible data analysis, and contacted multiple departments that could be
 interested in hosting this course. The Department of Ecology and Evolutionary
 Biology at the University of Toronto agreed, and we ran a pilot of the course
 with the title "Theoretical Ecology and Reproducible Quantitative Methods in R"
 to fourth-year undergraduate students. We modelled the structure and portions of
 the course content after the course ["Reproducible Quantitative
 Methods"](https://cbahlai.github.io/rqm-template/), which was created by Dr.
-Christie Bahlai, and then heavily modified the lesson content to include
-expanded material on data wrangling, visualization, reproducibility, and
-collaborative science, as well as additional theoretical ecology topics.
+Christie Bahlai. We extensively modified the lesson content to include
+expanded material on data wrangling, visualization, reproducibility,
+collaborative science, and additional theoretical ecology topics.
 
 Following a successful pilot term, we modified our lesson material again to
 include more generally applicable statistical concepts and far fewer theoretical
 ecological concepts. We also renamed the course to "Quantitative Methods in R
 for Biology" [@rcourse] to reflect this change. On both occasions, the course
-received excellent feedback from the students and the supervising professors.
+received excellent feedback from the students and the supervising professors and has been incorporated into the long-term curriculum as a third year level course.
 
 # Contributions
 
-LWJ, MB-F, LT, and LC initially conceptualized the course, while JO took the
-initial lead on course development. JO, MB-F, LWJ, LC, ES, and LT designed and
+LWJ, MB-F, LT, and LC conceptualized the course.
+JO lead course development. JO, MB-F, LWJ, LC, ES, and LT designed and
 taught the first iteration of the course. JSS, LC, MB-F, and ARH taught the
 second iteration of the course, with guest lectures from SM and LT. Lesson
 development for second iteration: JO and ARH (1-5), JSS (8, 9, 11), LC (6, 7,
