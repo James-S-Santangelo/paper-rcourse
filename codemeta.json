@@ -17,18 +17,18 @@
       "affiliation": "Department of Physics, University of Toronto"
     },
     {
-      "@id": "0000-0003-0002-8399",
-      "@type": "Person",
-      "email": "ahmed.hasan@mail.utoronto.ca",
-      "name": "Ahmed Hasan",
-      "affiliation": "Department of Cell and Systems Biology, University of Toronto"
-    },
-    {
       "@id": "0000-0003-0051-3239",
       "@type": "Person",
       "email": "joel.ostblom@mail.utoronto.ca",
       "name": "Joel Ostblom",
       "affiliation": "Institute of Biomaterials and Biomedical Engineering, University of Toronto"
+    },
+    {
+      "@id": "0000-0003-0002-8399",
+      "@type": "Person",
+      "email": "ahmed.hasan@mail.utoronto.ca",
+      "name": "Ahmed Hasan",
+      "affiliation": "Department of Cell and Systems Biology, University of Toronto"
     },
     {
       "@id": "0000-0002-5921-2548",
@@ -45,11 +45,11 @@
       "affiliation": "Department of Physiology, University of Toronto"
     },
     {
-      "@id": "0000-0002-6765-0898",
+      "@id": "0000-0001-7310-8942",
       "@type": "Person",
-      "email": "sara.mahallati@mail.utoronto.ca",
-      "name": "Sara Mahallati",
-      "affiliation": "Institute of Biomaterials and Biomedical Engineering, University of Toronto"
+      "email": "esalesde@physics.utoronto.ca",
+      "name": "Elliott Sales de Andrade",
+      "affiliation": "Department of Physics, University of Toronto"
     },
     {
       "@id": "",
@@ -59,14 +59,14 @@
       "affiliation": "Department of Psychology, University of Toronto"
     },
     {
-      "@id": "0000-0001-7310-8942",
+      "@id": "0000-0002-6765-0898",
       "@type": "Person",
-      "email": "esalesde@physics.utoronto.ca",
-      "name": "Elliott Sales de Andrade",
-      "affiliation": "Department of Physics, University of Toronto"
+      "email": "sara.mahallati@mail.utoronto.ca",
+      "name": "Sara Mahallati",
+      "affiliation": "Institute of Biomaterials and Biomedical Engineering, University of Toronto"
     }
   ],
-  "identifier": "10.5281/zenodo.2335179",
+  "identifier": "http://doi.org/10.5281/zenodo.2335179",
   "codeRepository": "https://github.com/UofTCoders/rcourse",
   "datePublished": "2019-01-03",
   "dateModified": "2019-01-03",
@@ -75,5 +75,5 @@
   "keywords": "R, programming, coding, ecology, statistics, differential equations, modelling, regression, population dynamics",
   "license": "MIT, CC-BY-4.0",
   "title": "A graduate student-led participatory live-coding quantitative methods course in R: Experiences on initiating, developing, and teaching",
-  "version": "v2.0.0"
+  "version": "v2.1.0"
 }
