@@ -73,7 +73,7 @@ Students are not expected to have any prior knowledge of the R language. Our
 material is licensed under CC-BY 4.0 while the code is under the MIT License. 
 Our course is a response to the growing need for programmatic training
 emphasizing sound data analysis practices among researchers. We believe the
-included topics, such as open accessibility and modularity, makes our course an
+included topics, open accessibility, and modularity, makes our course an
 ideal resource for instructors and an excellent contribution to JOSE.
 
 # Main Body
@@ -186,7 +186,7 @@ each instructor to develop and deliver individual lessons and assignments to the
 eight students. We reduced the number of instructors to four graduate students
 for the second iteration and the number of students increased to 26. We estimate
 four instructors could effectively teach the current iteration of the course to
-around 40 students. We feel having instructors come from multiple fields is a
+around 40 students. We consider having instructors come from multiple fields is a
 major strength and strongly recommend this practice for teaching quantitative 
 research methods and skills.
 
