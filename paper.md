@@ -6,7 +6,6 @@ tags:
 - statistics
 - biology
 - undergraduate
-# Author order? Right now it is alphabetical
 authors:
 - name: Luke W. Johnston
   orcid: 0000-0003-4169-2616
@@ -14,24 +13,24 @@ authors:
 - name: Madeleine Bonsma-Fisher
   orcid: 0000-0002-5813-4664
   affiliation: 1
-- name: Lindsay Coome
-  orcid:
-  affiliation: 5
 - name: Joel Ostblom
   orcid: 0000-0003-0051-3239
   affiliation: 4
-- name: Elliott Sales de Andrade
-  orcid: 0000-0001-7310-8942
-  affiliation: 1
-- name: Lina Tran
-  orcid: 0000-0003-3504-4524
-  affiliation: 8
 - name: Ahmed R. Hasan
   orcid: 0000-0003-0002-8399
   affiliation: 6
 - name: James S. Santangelo
   orcid: 0000-0002-5921-2548
   affiliation: 7
+- name: Lindsay Coome
+  orcid:
+  affiliation: 5
+- name: Lina Tran
+  orcid: 0000-0003-3504-4524
+  affiliation: 8
+- name: Elliott Sales de Andrade
+  orcid: 0000-0001-7310-8942
+  affiliation: 1
 - name: Sara Mahallati
   orcid: 0000-0002-6765-0898
   affiliation: 4
